@@ -32,8 +32,8 @@ declare namespace __next_route_internal_types__ {
     | `/`
     | `/admin`
     | `/admin/students`
-    | `/code-of-conduct`
     | `/blog`
+    | `/code-of-conduct`
     | `/contact`
     | `/cookies`
     | `/enroll`
@@ -44,8 +44,8 @@ declare namespace __next_route_internal_types__ {
     | `/schedule`
     | `/schedule/booking-confirmation`
     | `/security`
-    | `/terms`
     | `/success-stories`
+    | `/terms`
   type DynamicRoutes<T extends string = string> = 
     | `/enroll/${SafeSlug<T>}`
     | `/instructors/${SafeSlug<T>}`
