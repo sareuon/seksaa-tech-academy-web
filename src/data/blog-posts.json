@@ -1,0 +1,250 @@
+{
+  "blogPosts": [
+    {
+      "id": "getting-started-ai-ml-2024",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Getting Started with AI & Machine Learning in 2024",
+        "km": "ការចាប់ផ្តើមជាមួយ AI និង Machine Learning ក្នុងឆ្នាំ 2024"
+      },
+      "slug": "getting-started-ai-ml-2024",
+      "excerpt": {
+        "en": "A comprehensive guide for beginners looking to enter the exciting world of artificial intelligence and machine learning.",
+        "km": "មគ្គុទ្ទេសក៍ពេញលេញសម្រាប់អ្នកចាប់ផ្តើមដែលចង់ចូលទៅក្នុងពិភពដ៏រំភើបនៃបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីន។"
+      },
+      "content": {
+        "en": "Artificial Intelligence and Machine Learning are transforming industries worldwide. In this comprehensive guide, we'll explore the fundamentals, career opportunities, and practical steps to get started in this exciting field...",
+        "km": "បញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីនកំពុងផ្លាស់ប្តូរឧស្សាហកម្មទូទាំងពិភពលោក។ ក្នុងមគ្គុទ្ទេសក៍ពេញលេញនេះ យើងនឹងស្វែងយល់ពីមូលដ្ឋាន ឱកាសការងារ និងជំហានជាក់ស្តែងដើម្បីចាប់ផ្តើមក្នុងវិស័យដ៏រំភើបនេះ..."
+      },
+      "featuredImage": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "author": {
+        "name": "Prof. Sokha Lim",
+        "avatar": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+        "bio": "AI/ML Expert with 15+ years experience"
+      },
+      "category": "technology",
+      "tags": ["AI", "Machine Learning", "Career", "Beginner"],
+      "publishedAt": "2024-01-15T00:00:00Z",
+      "readingTime": 8,
+      "featured": true,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Getting Started with AI & Machine Learning in 2024 - Complete Guide",
+          "km": "ការចាប់ផ្តើមជាមួយ AI និង Machine Learning ក្នុងឆ្នាំ 2024 - មគ្គុទ្ទេសក៍ពេញលេញ"
+        },
+        "metaDescription": {
+          "en": "Learn how to start your AI and Machine Learning journey in 2024. Complete beginner's guide with career paths, skills needed, and practical steps.",
+          "km": "រៀនពីរបៀបចាប់ផ្តើមដំណើរ AI និង Machine Learning របស់អ្នកក្នុងឆ្នាំ 2024។ មគ្គុទ្ទេសក៍សម្រាប់អ្នកចាប់ផ្តើមពេញលេញជាមួយផ្លូវការងារ ជំនាញដែលត្រូវការ និងជំហានជាក់ស្តែង។"
+        },
+        "keywords": ["AI", "Machine Learning", "Career Change", "Tech Education", "Cambodia"]
+      }
+    },
+    {
+      "id": "data-engineering-career-path",
+      "createdAt": "2024-01-10T00:00:00Z",
+      "updatedAt": "2024-01-10T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Data Engineering: The High-Demand Career Path of 2024",
+        "km": "វិស្វកម្មទិន្នន័យ៖ ផ្លូវការងារដែលមានតម្រូវការខ្ពស់នៃឆ្នាំ 2024"
+      },
+      "slug": "data-engineering-career-path",
+      "excerpt": {
+        "en": "Discover why data engineering is one of the fastest-growing tech careers and how to break into this lucrative field.",
+        "km": "ស្វែងយល់ពីមូលហេតុដែលវិស្វកម្មទិន្នន័យជាការងារបច្ចេកវិទ្យាដែលកំពុងរីកចម្រើនលឿនបំផុត និងរបៀបចូលទៅក្នុងវិស័យដែលមានប្រាក់ចំណូលល្អនេះ។"
+      },
+      "content": {
+        "en": "Data engineering has emerged as one of the most critical roles in modern technology companies. As businesses generate unprecedented amounts of data, the need for skilled professionals who can build and maintain data infrastructure has skyrocketed...",
+        "km": "វិស្វកម្មទិន្នន័យបានលេចចេញជាតួនាទីដ៏សំខាន់បំផុតមួយក្នុងក្រុមហ៊ុនបច្ចេកវិទ្យាទំនើប។ នៅពេលដែលអាជីវកម្មបង្កើតទិន្នន័យក្នុងបរិមាណដែលមិនធ្លាប់មាន តម្រូវការសម្រាប់អ្នកជំនាញដែលអាចបង្កើត និងថែរក្សាហេដ្ឋារចនាសម្ព័ន្ធទិន្នន័យបានកើនឡើងយ៉ាងខ្លាំង..."
+      },
+      "featuredImage": "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "author": {
+        "name": "Eng. David Kim",
+        "avatar": "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+        "bio": "Senior Data Engineer with cloud expertise"
+      },
+      "category": "career",
+      "tags": ["Data Engineering", "Career", "Big Data", "Cloud"],
+      "publishedAt": "2024-01-10T00:00:00Z",
+      "readingTime": 6,
+      "featured": true,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Data Engineering Career Path 2024 - High Demand Tech Jobs",
+          "km": "ផ្លូវការងារវិស្វកម្មទិន្នន័យ 2024 - ការងារបច្ចេកវិទ្យាដែលមានតម្រូវការខ្ពស់"
+        },
+        "metaDescription": {
+          "en": "Explore the data engineering career path, salary expectations, required skills, and how to get started in this high-demand field.",
+          "km": "ស្វែងយល់ពីផ្លូវការងារវិស្វកម្មទិន្នន័យ ការរំពឹងទុកប្រាក់ខែ ជំនាញដែលត្រូវការ និងរបៀបចាប់ផ្តើមក្នុងវិស័យដែលមានតម្រូវការខ្ពស់នេះ។"
+        },
+        "keywords": ["Data Engineering", "Tech Career", "Big Data", "Cloud Computing", "Cambodia Tech"]
+      }
+    },
+    {
+      "id": "web-development-trends-2024",
+      "createdAt": "2024-01-05T00:00:00Z",
+      "updatedAt": "2024-01-05T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Web Development Trends to Watch in 2024",
+        "km": "និន្នាការអភិវឌ្ឍន៍វេបដែលត្រូវតាមដានក្នុងឆ្នាំ 2024"
+      },
+      "slug": "web-development-trends-2024",
+      "excerpt": {
+        "en": "Stay ahead of the curve with the latest web development trends, frameworks, and technologies shaping the industry in 2024.",
+        "km": "នៅមុនគេជាមួយនិន្នាការអភិវឌ្ឍន៍វេបចុងក្រោយបំផុត ស្តារពុម្ព និងបច្ចេកវិទ្យាដែលកំពុងរៀបចំឧស្សាហកម្មក្នុងឆ្នាំ 2024។"
+      },
+      "content": {
+        "en": "The web development landscape continues to evolve rapidly, with new frameworks, tools, and methodologies emerging regularly. In 2024, several key trends are shaping how developers build modern web applications...",
+        "km": "ទេសភាពអភិវឌ្ឍន៍វេបបន្តវិវត្តយ៉ាងលឿន ជាមួយនឹងស្តារពុម្ព ឧបករណ៍ និងវិធីសាស្ត្រថ្មីៗដែលលេចចេញជាទៀងទាត់។ ក្នុងឆ្នាំ 2024 និន្នាការសំខាន់ៗជាច្រើនកំពុងរៀបចំរបៀបដែលអ្នកអភិវឌ្ឍន៍បង្កើតកម្មវិធីវេបទំនើប..."
+      },
+      "featuredImage": "/images/blog/web-dev-trends.jpg",
+      "author": {
+        "name": "Sarah Patel",
+        "avatar": "/images/instructors/sarah-patel.jpg",
+        "bio": "Full-Stack Developer and Tech Educator"
+      },
+      "category": "technology",
+      "tags": ["Web Development", "React", "Next.js", "Trends"],
+      "publishedAt": "2024-01-05T00:00:00Z",
+      "readingTime": 7,
+      "featured": true,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Web Development Trends 2024 - Latest Technologies & Frameworks",
+          "km": "និន្នាការអភិវឌ្ឍន៍វេប 2024 - បច្ចេកវិទ្យា និងស្តារពុម្ពចុងក្រោយបំផុត"
+        },
+        "metaDescription": {
+          "en": "Discover the top web development trends for 2024, including new frameworks, tools, and technologies every developer should know.",
+          "km": "ស្វែងយល់ពីនិន្នាការអភិវឌ្ឍន៍វេបកំពូលសម្រាប់ឆ្នាំ 2024 រួមទាំងស្តារពុម្ព ឧបករណ៍ និងបច្ចេកវិទ្យាថ្មីៗដែលអ្នកអភិវឌ្ឍន៍គ្រប់រូបគួរតែដឹង។"
+        },
+        "keywords": ["Web Development", "React", "Next.js", "JavaScript", "Frontend"]
+      }
+    },
+    {
+      "id": "career-change-tech-success-tips",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "5 Essential Tips for a Successful Career Change to Tech",
+        "km": "គន្លឹះសំខាន់ 5 ចំណុចសម្រាប់ការផ្លាស់ប្តូរការងារទៅបច្ចេកវិទ្យាដោយជោគជ័យ"
+      },
+      "slug": "career-change-tech-success-tips",
+      "excerpt": {
+        "en": "Making a career change to tech can be challenging but rewarding. Here are proven strategies to make your transition successful.",
+        "km": "ការផ្លាស់ប្តូរការងារទៅបច្ចេកវិទ្យាអាចជាបញ្ហាប្រឈម ប៉ុន្តែមានផលតបស្នង។ នេះគឺជាយុទ្ធសាស្ត្រដែលបានបង្ហាញដើម្បីធ្វើឱ្យការផ្លាស់ប្តូររបស់អ្នកទទួលបានជោគជ័យ។"
+      },
+      "content": {
+        "en": "Transitioning to a tech career from a different field requires careful planning, dedication, and the right strategy. Whether you're coming from finance, marketing, or any other industry, these five essential tips will help you navigate your career change successfully...",
+        "km": "ការផ្លាស់ប្តូរទៅការងារបច្ចេកវិទ្យាពីវិស័យផ្សេងទាមទារការរៀបចំដោយប្រុងប្រយ័ត្ន ការលះបង់ និងយុទ្ធសាស្ត្រត្រឹមត្រូវ។ មិនថាអ្នកមកពីហិរញ្ញវត្ថុ ទីផ្សារ ឬឧស្សាហកម្មផ្សេងទៀតទេ គន្លឹះសំខាន់ទាំងប្រាំនេះនឹងជួយអ្នកក្នុងការផ្លាស់ប្តូរការងារដោយជោគជ័យ..."
+      },
+      "featuredImage": "/images/blog/career-change-tech.jpg",
+      "author": {
+        "name": "Dr. Mey Chan",
+        "avatar": "/images/instructors/dr-mey.jpg",
+        "bio": "Career Counselor and Tech Education Expert"
+      },
+      "category": "career",
+      "tags": ["Career Change", "Tech Career", "Professional Development", "Success"],
+      "publishedAt": "2024-01-01T00:00:00Z",
+      "readingTime": 5,
+      "featured": false,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Career Change to Tech - 5 Essential Success Tips",
+          "km": "ការផ្លាស់ប្តូរការងារទៅបច្ចេកវិទ្យា - គន្លឹះជោគជ័យសំខាន់ 5 ចំណុច"
+        },
+        "metaDescription": {
+          "en": "Learn the essential strategies for successfully transitioning to a tech career from any background. Proven tips from industry experts.",
+          "km": "រៀនយុទ្ធសាស្ត្រសំខាន់សម្រាប់ការផ្លាស់ប្តូរទៅការងារបច្ចេកវិទ្យាដោយជោគជ័យពីប្រវត្តិណាមួយ។ គន្លឹះដែលបានបង្ហាញពីអ្នកជំនាញក្នុងឧស្សាហកម្ម។"
+        },
+        "keywords": ["Career Change", "Tech Jobs", "Professional Development", "Cambodia"]
+      }
+    },
+    {
+      "id": "python-programming-beginners-guide",
+      "createdAt": "2023-12-28T00:00:00Z",
+      "updatedAt": "2023-12-28T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Python Programming for Beginners: Your First Steps",
+        "km": "ការសរសេរកម្មវិធី Python សម្រាប់អ្នកចាប់ផ្តើម៖ ជំហានដំបូងរបស់អ្នក"
+      },
+      "slug": "python-programming-beginners-guide",
+      "excerpt": {
+        "en": "Start your programming journey with Python, one of the most beginner-friendly and versatile programming languages.",
+        "km": "ចាប់ផ្តើមដំណើរការសរសេរកម្មវិធីរបស់អ្នកជាមួយ Python ដែលជាភាសាសរសេរកម្មវិធីដែលងាយស្រួលបំផុត និងមានភាពបត់បែនបំផុតមួយ។"
+      },
+      "content": {
+        "en": "Python has become one of the most popular programming languages in the world, and for good reason. Its simple syntax, powerful capabilities, and extensive ecosystem make it an ideal choice for beginners and experienced developers alike...",
+        "km": "Python បានក្លាយជាភាសាសរសេរកម្មវិធីដ៏ពេញនិយមបំផុតមួយក្នុងពិភពលោក ហើយមានហេតុផលល្អ។ វាក្យសម្ព័ន្ធសាមញ្ញ សមត្ថភាពខ្លាំងក្លា និងប្រព័ន្ធអេកូឡូស៊ីដ៏ទូលំទូលាយធ្វើឱ្យវាក្លាយជាជម្រើសដ៏ល្អសម្រាប់អ្នកចាប់ផ្តើម និងអ្នកអភិវឌ្ឍន៍ដែលមានបទពិសោធន៍..."
+      },
+      "featuredImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "author": {
+        "name": "Prof. Sokha Lim",
+        "avatar": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+        "bio": "Python Expert and Data Science Instructor"
+      },
+      "category": "education",
+      "tags": ["Python", "Programming", "Beginner", "Tutorial"],
+      "publishedAt": "2023-12-28T00:00:00Z",
+      "readingTime": 10,
+      "featured": false,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Python Programming for Beginners - Complete Getting Started Guide",
+          "km": "ការសរសេរកម្មវិធី Python សម្រាប់អ្នកចាប់ផ្តើម - មគ្គុទ្ទេសក៍ចាប់ផ្តើមពេញលេញ"
+        },
+        "metaDescription": {
+          "en": "Learn Python programming from scratch with this comprehensive beginner's guide. Step-by-step tutorials and practical examples.",
+          "km": "រៀនការសរសេរកម្មវិធី Python ពីដើមជាមួយមគ្គុទ្ទេសក៍សម្រាប់អ្នកចាប់ផ្តើមពេញលេញនេះ។ ការបង្រៀនជំហានម្តងមួយ និងឧទាហរណ៍ជាក់ស្តែង។"
+        },
+        "keywords": ["Python", "Programming", "Beginner Tutorial", "Learn Python", "Cambodia"]
+      }
+    },
+    {
+      "id": "tech-industry-cambodia-opportunities",
+      "createdAt": "2023-12-20T00:00:00Z",
+      "updatedAt": "2023-12-20T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "The Growing Tech Industry in Cambodia: Opportunities and Challenges",
+        "km": "ឧស្សាហកម្មបច្ចេកវិទ្យាដែលកំពុងរីកចម្រើនក្នុងកម្ពុជា៖ ឱកាស និងបញ្ហាប្រឈម"
+      },
+      "slug": "tech-industry-cambodia-opportunities",
+      "excerpt": {
+        "en": "Explore the rapidly expanding tech sector in Cambodia and discover the exciting opportunities for local talent.",
+        "km": "ស្វែងយល់ពីវិស័យបច្ចេកវិទ្យាដែលកំពុងពង្រីកយ៉ាងលឿនក្នុងកម្ពុជា និងស្វែងរកឱកាសដ៏រំភើបសម្រាប់ទេពកោសល្យក្នុងស្រុក។"
+      },
+      "content": {
+        "en": "Cambodia's technology sector has experienced remarkable growth in recent years, driven by government initiatives, foreign investment, and a young, tech-savvy population. This growth has created unprecedented opportunities for local talent...",
+        "km": "វិស័យបច្ចេកវិទ្យារបស់កម្ពុជាបានជួបប្រទះនូវកំណើនគួរឱ្យកត់សម្គាល់ក្នុងប៉ុន្មានឆ្នាំចុងក្រោយនេះ ដែលជំរុញដោយគំនិតផ្តួចផ្តើមរបស់រដ្ឋាភិបាល ការវិនិយោគបរទេស និងប្រជាជនវ័យក្មេងដែលមានចំណេះដឹងខាងបច្ចេកវិទ្យា។ កំណើននេះបានបង្កើតឱកាសដែលមិនធ្លាប់មានសម្រាប់ទេពកោសល្យក្នុងស្រុក..."
+      },
+      "featuredImage": "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      "author": {
+        "name": "Seksaa Tech Team",
+        "avatar": "/images/logo.png",
+        "bio": "Industry Analysis and Market Research"
+      },
+      "category": "industry",
+      "tags": ["Cambodia", "Tech Industry", "Opportunities", "Market Analysis"],
+      "publishedAt": "2023-12-20T00:00:00Z",
+      "readingTime": 6,
+      "featured": false,
+      "seoMetadata": {
+        "metaTitle": {
+          "en": "Cambodia Tech Industry Growth - Opportunities for Local Talent",
+          "km": "កំណើនឧស្សាហកម្មបច្ចេកវិទ្យាកម្ពុជា - ឱកាសសម្រាប់ទេពកោសល្យក្នុងស្រុក"
+        },
+        "metaDescription": {
+          "en": "Discover the growing tech opportunities in Cambodia, market trends, and how local talent can benefit from the expanding digital economy.",
+          "km": "ស្វែងរកឱកាសបច្ចេកវិទ្យាដែលកំពុងរីកចម្រើនក្នុងកម្ពុជា និន្នាការទីផ្សារ និងរបៀបដែលទេពកោសល្យក្នុងស្រុកអាចទទួលបានផលប្រយោជន៍ពីសេដ្ឋកិច្ចឌីជីថលដែលកំពុងពង្រីក។"
+        },
+        "keywords": ["Cambodia Tech", "Digital Economy", "Tech Jobs", "Local Talent", "Market Growth"]
+      }
+    }
+  ]
+} 

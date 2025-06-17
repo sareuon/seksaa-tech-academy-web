@@ -1,0 +1,21 @@
+{
+  "project": {
+    "name": "Seksaa Tech Academy",
+    "description": "Tech School Website for STEM and IT programs",
+    "version": "1.0.0",
+    "type": "web"
+  },
+  "settings": {
+    "model": "claude-3-5-sonnet-20241022",
+    "maxTokens": 4000,
+    "temperature": 0.7,
+    "defaultSubtasks": 3,
+    "defaultPriority": "medium",
+    "logLevel": "info"
+  },
+  "paths": {
+    "prd": ".taskmaster/docs/prd.txt",
+    "tasks": "tasks.json",
+    "taskFiles": "tasks/"
+  }
+} 

@@ -1,0 +1,429 @@
+{
+  "instructors": [
+    {
+      "id": "prof-sokha",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "name": {
+        "en": "Prof. Sokha Lim",
+        "km": "សាស្រ្តាចារ្យ សុខា លឹម"
+      },
+      "title": {
+        "en": "Senior AI & Data Science Instructor",
+        "km": "គ្រូបង្រៀនជាន់ខ្ពស់ AI និងវិទ្យាសាស្ត្រទិន្នន័យ"
+      },
+      "bio": {
+        "en": "Prof. Sokha Lim brings over 10 years of experience in artificial intelligence and machine learning. He holds a PhD in Computer Science from Stanford University and has worked at leading tech companies including Google and Microsoft.",
+        "km": "សាស្រ្តាចារ្យ សុខា លឹម មានបទពិសោធន៍ជាង 10 ឆ្នាំក្នុងវិស័យបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីន។"
+      },
+      "shortBio": {
+        "en": "PhD in Computer Science from Stanford, former Google & Microsoft engineer",
+        "km": "បណ្ឌិត Computer Science ពី Stanford, អតីតវិស្វករ Google & Microsoft"
+      },
+      "slug": "prof-sokha-lim",
+      "profileImage": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "specialties": ["Artificial Intelligence", "Machine Learning", "Deep Learning"],
+      "experience": [
+        {
+          "company": "Seksaa Tech Academy",
+          "position": {
+            "en": "Senior AI Instructor",
+            "km": "គ្រូបង្រៀនជាន់ខ្ពស់ AI"
+          },
+          "duration": "2020 - Present",
+          "description": {
+            "en": "Leading AI curriculum development",
+            "km": "ដឹកនាំការអភិវឌ្ឍកម្មវិធីសិក្សា AI"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "Stanford University",
+          "degree": {
+            "en": "PhD in Computer Science",
+            "km": "បណ្ឌិតវិទ្យាសាស្ត្រកុំព្យូទ័រ"
+          },
+          "field": {
+            "en": "Artificial Intelligence",
+            "km": "បញ្ញាប្រឌិត"
+          },
+          "year": "2017"
+        }
+      ],
+      "certifications": [
+        {
+          "name": {
+            "en": "Google Cloud Professional ML Engineer",
+            "km": "វិស្វករ ML វិជ្ជាជីវៈ Google Cloud"
+          },
+          "issuer": "Google Cloud",
+          "year": "2021"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "socialProfiles": [
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/sokha-lim"
+        }
+      ],
+      "teachingStyle": {
+        "en": "Hands-on approach with real-world projects",
+        "km": "វិធីសាស្រ្តដោយដៃជាមួយគម្រោងពិតប្រាកដ"
+      },
+      "achievements": [
+        {
+          "en": "Published 15+ research papers in top AI conferences",
+          "km": "បានបោះពុម្ពផ្សាយដោយស្រាវជ្រាវជាង 15"
+        }
+      ],
+      "languages": ["english", "khmer"],
+      "availability": {
+        "days": ["monday", "tuesday", "wednesday"],
+        "timeSlots": ["9:00-12:00", "14:00-17:00"]
+      },
+      "rating": 4.9,
+      "totalStudents": 500,
+      "yearsExperience": 10,
+      "featured": true
+    },
+    {
+      "id": "dr-mey",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "name": {
+        "en": "Dr. Mey Chan",
+        "km": "វេជ្ជបណ្ឌិត មី ចាន់"
+      },
+      "title": {
+        "en": "Machine Learning Research Director",
+        "km": "នាយកស្រាវជ្រាវការរៀនម៉ាស៊ីន"
+      },
+      "bio": {
+        "en": "Dr. Mey Chan is a leading researcher in machine learning with a focus on deep learning applications in healthcare and finance. She holds a PhD from UC Berkeley and has published extensively in top-tier journals. Mey has 8 years of industry experience at companies like Tesla and NVIDIA, where she led AI research teams developing autonomous driving systems and GPU-accelerated ML frameworks.",
+        "km": "វេជ្ជបណ្ឌិត មី ចាន់ គឺជាអ្នកស្រាវជ្រាវឈានមុខគេក្នុងការរៀនម៉ាស៊ីនដោយផ្តោតលើការអនុវត្តការរៀនយ៉ាងជ្រៅក្នុងវិស័យសុខាភិបាល និងហិរញ្ញវត្ថុ។"
+      },
+      "shortBio": {
+        "en": "PhD from UC Berkeley, former Tesla & NVIDIA researcher specializing in deep learning applications",
+        "km": "បណ្ឌិតពី UC Berkeley, អតីតអ្នកស្រាវជ្រាវ Tesla & NVIDIA ជំនាញការអនុវត្តការរៀនយ៉ាងជ្រៅ"
+      },
+      "slug": "dr-mey-chan",
+      "profileImage": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "Deep Learning",
+        "Computer Vision",
+        "Neural Networks",
+        "Healthcare AI",
+        "Autonomous Systems"
+      ],
+      "experience": [
+        {
+          "company": "Seksaa Tech Academy",
+          "position": {
+            "en": "ML Research Director & Senior Instructor",
+            "km": "នាយកស្រាវជ្រាវ ML និងគ្រូបង្រៀនជាន់ខ្ពស់"
+          },
+          "duration": "2021 - Present",
+          "description": {
+            "en": "Leading ML research initiatives and advanced deep learning curriculum",
+            "km": "ដឹកនាំគំនិតផ្តួចផ្តើមស្រាវជ្រាវ ML និងកម្មវិធីសិក្សាការរៀនយ៉ាងជ្រៅកម្រិតខ្ពស់"
+          }
+        },
+        {
+          "company": "Tesla",
+          "position": {
+            "en": "Senior AI Research Scientist",
+            "km": "អ្នកវិទ្យាសាស្ត្រស្រាវជ្រាវ AI ជាន់ខ្ពស់"
+          },
+          "duration": "2018 - 2021",
+          "description": {
+            "en": "Developed computer vision systems for autonomous driving",
+            "km": "អភិវឌ្ឍប្រព័ន្ធមើលឃើញកុំព្យូទ័រសម្រាប់ការបើកបរស្វ័យប្រវត្តិ"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "UC Berkeley",
+          "degree": {
+            "en": "PhD in Electrical Engineering",
+            "km": "បណ្ឌិតវិស្វកម្មអគ្គិសនី"
+          },
+          "field": {
+            "en": "Machine Learning",
+            "km": "ការរៀនម៉ាស៊ីន"
+          },
+          "year": "2016"
+        }
+      ],
+      "certifications": [
+        {
+          "name": {
+            "en": "NVIDIA Deep Learning Institute Certified",
+            "km": "វិញ្ញាបនបត្រវិទ្យាស្ថានការរៀនយ៉ាងជ្រៅ NVIDIA"
+          },
+          "issuer": "NVIDIA",
+          "year": "2020"
+        }
+      ],
+      "skills": [
+        {
+          "name": "PyTorch",
+          "category": "tool",
+          "level": "advanced"
+        },
+        {
+          "name": "Computer Vision",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "socialProfiles": [
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/in/mey-chan"
+        }
+      ],
+      "teachingStyle": {
+        "en": "Research-driven approach with emphasis on cutting-edge techniques and industry applications",
+        "km": "វិធីសាស្រ្តដែលដឹកនាំដោយការស្រាវជ្រាវដោយសង្កត់ធ្ងន់លើបច្ចេកទេសទំនើប និងការអនុវត្តឧស្សាហកម្ម"
+      },
+      "achievements": [
+        {
+          "en": "Published 25+ papers in top-tier ML conferences",
+          "km": "បានបោះពុម្ពផ្សាយរបាយការណ៍ជាង 25 ក្នុងសន្និសីទ ML កំពូល"
+        }
+      ],
+      "languages": ["english", "khmer", "chinese"],
+      "availability": {
+        "days": ["tuesday", "wednesday", "thursday", "friday"],
+        "timeSlots": ["10:00-13:00", "15:00-18:00"]
+      },
+      "rating": 4.8,
+      "totalStudents": 300,
+      "yearsExperience": 8,
+      "featured": true
+    },
+    {
+      "id": "eng-david",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "name": {
+        "en": "David Kim",
+        "km": "ដេវីដ គីម"
+      },
+      "title": {
+        "en": "Full-Stack Development Lead",
+        "km": "ដឹកនាំការអភិវឌ្ឍន៍ពេញលេញ"
+      },
+      "bio": {
+        "en": "David Kim is a seasoned full-stack developer with 12 years of experience building scalable web applications. He specializes in React, Node.js, and cloud architecture. David has worked at startups and large corporations, leading development teams and architecting solutions for millions of users. He's passionate about teaching modern web development practices and helping students build production-ready applications.",
+        "km": "ដេវីដ គីម គឺជាអ្នកអភិវឌ្ឍន៍ពេញលេញដែលមានបទពិសោធន៍ 12 ឆ្នាំក្នុងការបង្កើតកម្មវិធីវេបដែលអាចធ្វើមាត្រដ្ឋានបាន។"
+      },
+      "shortBio": {
+        "en": "Senior full-stack developer with 12+ years experience, React & Node.js specialist",
+        "km": "អ្នកអភិវឌ្ឍន៍ពេញលេញជាន់ខ្ពស់ជាមួយបទពិសោធន៍ 12+ ឆ្នាំ ជំនាញ React & Node.js"
+      },
+      "slug": "david-kim",
+      "profileImage": "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "React & Next.js",
+        "Node.js & Express",
+        "Full-Stack Development",
+        "Cloud Architecture",
+        "DevOps"
+      ],
+      "experience": [
+        {
+          "company": "Seksaa Tech Academy",
+          "position": {
+            "en": "Lead Web Development Instructor",
+            "km": "គ្រូបង្រៀនដឹកនាំការអភិវឌ្ឍន៍វេប"
+          },
+          "duration": "2020 - Present",
+          "description": {
+            "en": "Teaching full-stack development and leading curriculum development",
+            "km": "បង្រៀនការអភិវឌ្ឍន៍ពេញលេញ និងដឹកនាំការអភិវឌ្ឍកម្មវិធីសិក្សា"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Toronto",
+          "degree": {
+            "en": "Bachelor of Computer Science",
+            "km": "បរិញ្ញាបត្រវិទ្យាសាស្ត្រកុំព្យូទ័រ"
+          },
+          "field": {
+            "en": "Software Engineering",
+            "km": "វិស្វកម្មសូហ្វវែរ"
+          },
+          "year": "2010"
+        }
+      ],
+      "certifications": [
+        {
+          "name": {
+            "en": "AWS Certified Solutions Architect",
+            "km": "ស្ថាបនិកដំណោះស្រាយដែលបានវិញ្ញាបនបត្រ AWS"
+          },
+          "issuer": "Amazon Web Services",
+          "year": "2022"
+        }
+      ],
+      "skills": [
+        {
+          "name": "React",
+          "category": "technical",
+          "level": "advanced"
+        },
+        {
+          "name": "Node.js",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "socialProfiles": [
+        {
+          "platform": "github",
+          "url": "https://github.com/david-kim-dev"
+        }
+      ],
+      "teachingStyle": {
+        "en": "Project-based learning with emphasis on best practices and real-world development workflows",
+        "km": "ការរៀនសូត្រតាមគម្រោងដោយសង្កត់ធ្ងន់លើការអនុវត្តល្អបំផុត និងលំហូរការងារអភិវឌ្ឍន៍ពិតប្រាកដ"
+      },
+      "achievements": [
+        {
+          "en": "Built applications serving 10M+ users",
+          "km": "បានបង្កើតកម្មវិធីដែលបម្រើអ្នកប្រើប្រាស់ជាង 10M"
+        }
+      ],
+      "languages": ["english", "khmer"],
+      "availability": {
+        "days": ["monday", "wednesday", "friday", "saturday"],
+        "timeSlots": ["14:00-17:00", "19:00-22:00"]
+      },
+      "rating": 4.7,
+      "totalStudents": 450,
+      "yearsExperience": 12,
+      "featured": true
+    },
+    {
+      "id": "dev-sarah",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "name": {
+        "en": "Sarah Patel",
+        "km": "សារ៉ា ប៉ាតែល"
+      },
+      "title": {
+        "en": "Frontend Development Specialist",
+        "km": "ជំនាញការអភិវឌ្ឍន៍ផ្នែកមុខ"
+      },
+      "bio": {
+        "en": "Sarah Patel is a frontend development expert with a passion for creating beautiful, accessible user interfaces. With 8 years of experience at companies like Airbnb and Spotify, she specializes in React, Vue.js, and modern CSS frameworks. Sarah is dedicated to teaching responsive design, accessibility, and performance optimization to help students create world-class user experiences.",
+        "km": "សារ៉ា ប៉ាតែល គឺជាអ្នកជំនាញការអភិវឌ្ឍន៍ផ្នែកមុខដែលមានចំណង់ចំណូលចិត្តក្នុងការបង្កើតចំណុចប្រទាក់អ្នកប្រើប្រាស់ដ៏ស្រស់ស្អាត និងអាចចូលប្រើបាន។"
+      },
+      "shortBio": {
+        "en": "Frontend specialist with 8+ years at Airbnb & Spotify, React & Vue.js expert",
+        "km": "ជំនាញផ្នែកមុខជាមួយ 8+ ឆ្នាំនៅ Airbnb & Spotify, អ្នកជំនាញ React & Vue.js"
+      },
+      "slug": "sarah-patel",
+      "profileImage": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+      "specialties": [
+        "React & Vue.js",
+        "UI/UX Design",
+        "Responsive Design",
+        "Accessibility",
+        "Performance Optimization"
+      ],
+      "experience": [
+        {
+          "company": "Seksaa Tech Academy",
+          "position": {
+            "en": "Senior Frontend Instructor",
+            "km": "គ្រូបង្រៀនផ្នែកមុខជាន់ខ្ពស់"
+          },
+          "duration": "2021 - Present",
+          "description": {
+            "en": "Teaching modern frontend development and UI/UX principles",
+            "km": "បង្រៀនការអភិវឌ្ឍន៍ផ្នែកមុខទំនើប និងគោលការណ៍ UI/UX"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "California Institute of Technology",
+          "degree": {
+            "en": "Bachelor of Science",
+            "km": "បរិញ្ញាបត្រវិទ្យាសាស្ត្រ"
+          },
+          "field": {
+            "en": "Computer Science",
+            "km": "វិទ្យាសាស្ត្រកុំព្យូទ័រ"
+          },
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        {
+          "name": {
+            "en": "Google UX Design Certificate",
+            "km": "វិញ្ញាបនបត្រការរចនា UX Google"
+          },
+          "issuer": "Google",
+          "year": "2021"
+        }
+      ],
+      "skills": [
+        {
+          "name": "React",
+          "category": "technical",
+          "level": "advanced"
+        },
+        {
+          "name": "Vue.js",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "socialProfiles": [
+        {
+          "platform": "github",
+          "url": "https://github.com/sarah-patel"
+        }
+      ],
+      "teachingStyle": {
+        "en": "Visual and interactive approach focusing on design principles and user experience",
+        "km": "វិធីសាស្រ្តមើលឃើញ និងអន្តរកម្មដោយផ្តោតលើគោលការណ៍រចនា និងបទពិសោធន៍អ្នកប្រើប្រាស់"
+      },
+      "achievements": [
+        {
+          "en": "Led UI redesign serving 150M+ users at Airbnb",
+          "km": "បានដឹកនាំការរចនា UI ឡើងវិញដែលបម្រើអ្នកប្រើប្រាស់ជាង 150M នៅ Airbnb"
+        }
+      ],
+      "languages": ["english"],
+      "availability": {
+        "days": ["tuesday", "thursday", "saturday"],
+        "timeSlots": ["10:00-13:00", "15:00-18:00"]
+      },
+      "rating": 4.6,
+      "totalStudents": 250,
+      "yearsExperience": 8,
+      "featured": false
+    }
+  ]
+} 

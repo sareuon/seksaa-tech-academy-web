@@ -1,0 +1,419 @@
+{
+  "adminUsers": [
+    {
+      "id": "admin-1",
+      "name": "Sokha Lim",
+      "email": "sokha@seksaatech.com",
+      "role": "super_admin",
+      "avatar": "/images/admin/sokha-avatar.jpg",
+      "permissions": ["all"],
+      "lastLogin": "2024-01-15T10:30:00Z",
+      "isActive": true,
+      "createdAt": "2023-01-01T00:00:00Z"
+    },
+    {
+      "id": "admin-2",
+      "name": "Mey Chan",
+      "email": "mey@seksaatech.com",
+      "role": "program_manager",
+      "avatar": "/images/admin/mey-avatar.jpg",
+      "permissions": ["programs", "instructors", "students", "analytics"],
+      "lastLogin": "2024-01-14T16:45:00Z",
+      "isActive": true,
+      "createdAt": "2023-02-01T00:00:00Z"
+    },
+    {
+      "id": "admin-3",
+      "name": "Dara Kim",
+      "email": "dara@seksaatech.com",
+      "role": "content_manager",
+      "avatar": "/images/admin/dara-avatar.jpg",
+      "permissions": ["blog", "resources", "testimonials", "content"],
+      "lastLogin": "2024-01-13T09:15:00Z",
+      "isActive": true,
+      "createdAt": "2023-03-01T00:00:00Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": "super_admin",
+      "name": "Super Administrator",
+      "description": "Full system access with all permissions",
+      "permissions": ["all"],
+      "color": "red"
+    },
+    {
+      "id": "program_manager",
+      "name": "Program Manager",
+      "description": "Manage programs, instructors, and student data",
+      "permissions": ["programs", "instructors", "students", "analytics", "schedules"],
+      "color": "blue"
+    },
+    {
+      "id": "content_manager",
+      "name": "Content Manager",
+      "description": "Manage blog content, resources, and testimonials",
+      "permissions": ["blog", "resources", "testimonials", "content", "media"],
+      "color": "green"
+    },
+    {
+      "id": "instructor",
+      "name": "Instructor",
+      "description": "Access to teaching materials and student progress",
+      "permissions": ["students", "materials", "grades"],
+      "color": "purple"
+    },
+    {
+      "id": "support_staff",
+      "name": "Support Staff",
+      "description": "Handle inquiries and basic student support",
+      "permissions": ["inquiries", "support", "basic_analytics"],
+      "color": "orange"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "all",
+      "name": "All Permissions",
+      "description": "Complete system access"
+    },
+    {
+      "id": "programs",
+      "name": "Program Management",
+      "description": "Create, edit, and manage educational programs"
+    },
+    {
+      "id": "instructors",
+      "name": "Instructor Management",
+      "description": "Manage instructor profiles and assignments"
+    },
+    {
+      "id": "students",
+      "name": "Student Management",
+      "description": "Access student data and enrollment information"
+    },
+    {
+      "id": "blog",
+      "name": "Blog Management",
+      "description": "Create and manage blog posts and articles"
+    },
+    {
+      "id": "resources",
+      "name": "Resource Management",
+      "description": "Manage learning resources and materials"
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonial Management",
+      "description": "Manage student testimonials and success stories"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics Access",
+      "description": "View detailed analytics and reports"
+    },
+    {
+      "id": "schedules",
+      "name": "Schedule Management",
+      "description": "Manage class schedules and bookings"
+    },
+    {
+      "id": "content",
+      "name": "Content Management",
+      "description": "General content creation and editing"
+    },
+    {
+      "id": "media",
+      "name": "Media Management",
+      "description": "Upload and manage media files"
+    },
+    {
+      "id": "inquiries",
+      "name": "Inquiry Management",
+      "description": "Handle student inquiries and support requests"
+    },
+    {
+      "id": "support",
+      "name": "Support Access",
+      "description": "Provide student support and assistance"
+    },
+    {
+      "id": "materials",
+      "name": "Teaching Materials",
+      "description": "Access to course materials and resources"
+    },
+    {
+      "id": "grades",
+      "name": "Grade Management",
+      "description": "Manage student grades and assessments"
+    },
+    {
+      "id": "basic_analytics",
+      "name": "Basic Analytics",
+      "description": "View basic performance metrics"
+    }
+  ],
+  "dashboardMetrics": {
+    "overview": {
+      "totalStudents": 1247,
+      "activeEnrollments": 342,
+      "totalRevenue": 2847500,
+      "monthlyRevenue": 485000,
+      "completionRate": 87.5,
+      "jobPlacementRate": 96.2,
+      "averageRating": 4.8,
+      "totalInstructors": 12
+    },
+    "enrollments": {
+      "thisMonth": 89,
+      "lastMonth": 76,
+      "growthRate": 17.1,
+      "byProgram": {
+        "ai-ml-bootcamp": 34,
+        "web-development": 28,
+        "data-engineering": 15,
+        "mobile-development": 8,
+        "cybersecurity": 4
+      },
+      "byPaymentPlan": {
+        "full-payment": 45,
+        "two-installments": 32,
+        "monthly-payment": 12
+      }
+    },
+    "revenue": {
+      "thisMonth": 485000,
+      "lastMonth": 412000,
+      "growthRate": 17.7,
+      "byProgram": {
+        "ai-ml-bootcamp": 170000,
+        "web-development": 140000,
+        "data-engineering": 105000,
+        "mobile-development": 48000,
+        "cybersecurity": 22000
+      },
+      "projectedAnnual": 5820000
+    },
+    "students": {
+      "active": 342,
+      "graduated": 905,
+      "dropoutRate": 12.5,
+      "averageAge": 26.8,
+      "genderDistribution": {
+        "male": 58.3,
+        "female": 40.2,
+        "other": 1.5
+      },
+      "locationDistribution": {
+        "phnom-penh": 68.5,
+        "siem-reap": 12.3,
+        "battambang": 8.7,
+        "other": 10.5
+      }
+    },
+    "programs": {
+      "totalPrograms": 5,
+      "averageRating": 4.8,
+      "mostPopular": "ai-ml-bootcamp",
+      "highestRevenue": "ai-ml-bootcamp",
+      "completionRates": {
+        "ai-ml-bootcamp": 89.2,
+        "web-development": 91.5,
+        "data-engineering": 85.7,
+        "mobile-development": 88.9,
+        "cybersecurity": 82.1
+      }
+    },
+    "instructors": {
+      "totalInstructors": 12,
+      "averageRating": 4.7,
+      "totalStudentsTaught": 2847,
+      "topRated": "prof-sokha",
+      "mostExperienced": "dr-mey"
+    }
+  },
+  "recentActivities": [
+    {
+      "id": "activity-1",
+      "type": "enrollment",
+      "title": "New enrollment in AI/ML Bootcamp",
+      "description": "Pisach Heng enrolled in AI/ML Bootcamp with full payment",
+      "timestamp": "2024-01-15T14:30:00Z",
+      "user": "system",
+      "metadata": {
+        "studentName": "Pisach Heng",
+        "programId": "ai-ml-bootcamp",
+        "paymentPlan": "full-payment",
+        "amount": 2250
+      }
+    },
+    {
+      "id": "activity-2",
+      "type": "program_update",
+      "title": "Program curriculum updated",
+      "description": "Web Development program curriculum updated by Mey Chan",
+      "timestamp": "2024-01-15T11:15:00Z",
+      "user": "admin-2",
+      "metadata": {
+        "programId": "web-development",
+        "changes": ["Added React 18 module", "Updated JavaScript fundamentals"]
+      }
+    },
+    {
+      "id": "activity-3",
+      "type": "instructor_added",
+      "title": "New instructor onboarded",
+      "description": "Virak Seng added as Cybersecurity instructor",
+      "timestamp": "2024-01-14T16:45:00Z",
+      "user": "admin-1",
+      "metadata": {
+        "instructorId": "virak-seng",
+        "specialization": "Cybersecurity"
+      }
+    },
+    {
+      "id": "activity-4",
+      "type": "testimonial_approved",
+      "title": "Testimonial approved",
+      "description": "Testimonial from Sovannak Chea approved and published",
+      "timestamp": "2024-01-14T10:20:00Z",
+      "user": "admin-3",
+      "metadata": {
+        "studentName": "Sovannak Chea",
+        "rating": 5
+      }
+    },
+    {
+      "id": "activity-5",
+      "type": "blog_published",
+      "title": "New blog post published",
+      "description": "\"5 Tips for Learning AI\" published by Dara Kim",
+      "timestamp": "2024-01-13T15:30:00Z",
+      "user": "admin-3",
+      "metadata": {
+        "postTitle": "5 Tips for Learning AI",
+        "category": "Learning Tips"
+      }
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "type": "urgent",
+      "title": "Payment Failed",
+      "message": "Payment failed for student Kosal Rath - requires immediate attention",
+      "timestamp": "2024-01-15T13:45:00Z",
+      "isRead": false,
+      "actionRequired": true,
+      "metadata": {
+        "studentId": "kosal-rath",
+        "amount": 1125,
+        "reason": "Insufficient funds"
+      }
+    },
+    {
+      "id": "notif-2",
+      "type": "info",
+      "title": "New Scholarship Application",
+      "message": "Merit-based scholarship application received from Mealea Pich",
+      "timestamp": "2024-01-15T10:20:00Z",
+      "isRead": false,
+      "actionRequired": true,
+      "metadata": {
+        "applicantName": "Mealea Pich",
+        "scholarshipType": "merit-based",
+        "programId": "cybersecurity"
+      }
+    },
+    {
+      "id": "notif-3",
+      "type": "success",
+      "title": "Monthly Revenue Target Achieved",
+      "message": "January revenue target of $450,000 exceeded by 7.8%",
+      "timestamp": "2024-01-15T09:00:00Z",
+      "isRead": true,
+      "actionRequired": false,
+      "metadata": {
+        "target": 450000,
+        "actual": 485000,
+        "percentage": 107.8
+      }
+    },
+    {
+      "id": "notif-4",
+      "type": "warning",
+      "title": "Low Class Capacity",
+      "message": "Data Engineering cohort has only 3 spots remaining",
+      "timestamp": "2024-01-14T16:30:00Z",
+      "isRead": true,
+      "actionRequired": false,
+      "metadata": {
+        "programId": "data-engineering",
+        "remainingSpots": 3,
+        "totalCapacity": 20
+      }
+    }
+  ],
+  "quickActions": [
+    {
+      "id": "add-student",
+      "title": "Add New Student",
+      "description": "Manually enroll a new student",
+      "icon": "UserPlus",
+      "color": "blue",
+      "permission": "students"
+    },
+    {
+      "id": "create-program",
+      "title": "Create Program",
+      "description": "Add a new educational program",
+      "icon": "BookOpen",
+      "color": "green",
+      "permission": "programs"
+    },
+    {
+      "id": "add-instructor",
+      "title": "Add Instructor",
+      "description": "Onboard a new instructor",
+      "icon": "GraduationCap",
+      "color": "purple",
+      "permission": "instructors"
+    },
+    {
+      "id": "write-blog",
+      "title": "Write Blog Post",
+      "description": "Create a new blog article",
+      "icon": "PenTool",
+      "color": "orange",
+      "permission": "blog"
+    },
+    {
+      "id": "view-analytics",
+      "title": "View Analytics",
+      "description": "Access detailed reports",
+      "icon": "BarChart3",
+      "color": "indigo",
+      "permission": "analytics"
+    },
+    {
+      "id": "manage-schedule",
+      "title": "Manage Schedule",
+      "description": "Update class schedules",
+      "icon": "Calendar",
+      "color": "red",
+      "permission": "schedules"
+    }
+  ],
+  "systemHealth": {
+    "status": "healthy",
+    "uptime": 99.97,
+    "lastBackup": "2024-01-15T02:00:00Z",
+    "databaseSize": "2.4 GB",
+    "activeUsers": 127,
+    "serverLoad": 23.5,
+    "memoryUsage": 67.8,
+    "diskUsage": 45.2,
+    "errors24h": 3,
+    "warnings24h": 12
+  }
+} 

@@ -1,0 +1,159 @@
+# .cursorrules for seksaa-tech-academy-web
+
+## Project Context
+This is a Next.js 14 tech academy website using TypeScript, Tailwind CSS, ShadCN UI, ESLint, and Prettier.
+Project name: seksaa-tech-academy-web
+Framework: Next.js with App Router
+Language: TypeScript
+Styling: Tailwind CSS + ShadCN UI
+UI Library: ShadCN UI (Default style, Slate base color)
+Task Management: TaskMaster AI configured
+
+## Cultural Authenticity & Image Guidelines
+- **ALWAYS use Khmer/Cambodian faces in all images** - This is a Cambodian tech academy and representation matters
+- All student, instructor, and professional images should feature Asian/Southeast Asian people, preferably Cambodian
+- When selecting stock photos from Unsplash or other sources, prioritize images showing:
+  - Asian students in tech/learning environments
+  - Southeast Asian professionals in modern workspaces
+  - Cambodian-looking individuals in educational settings
+- Update alt text to reflect Khmer/Cambodian representation (e.g., "Khmer students coding", "Cambodian instructor mentoring")
+- Maintain authentic representation while showing modern, professional tech education
+- Example image searches: "Asian students coding", "Southeast Asian tech professionals", "Asian developers"
+
+## Code Quality Standards
+- Always use TypeScript with proper type definitions
+- Follow ESLint rules (configured with Next.js and Prettier)
+- Use Prettier for consistent code formatting
+- Write clean, readable, and maintainable code
+- Add JSDoc comments for complex functions
+- Use meaningful variable and function names
+
+## Color Theme & Branding
+- **Primary Colors**: Navy Blue (#1e293b) and Orange (#f97316)
+- Navy blue represents knowledge, trust, and professionalism (matching the brain/book in logo)
+- Orange represents innovation, technology, and energy (matching the circuit patterns in logo)
+- Use these colors consistently throughout all components and sections
+- Gradients: Navy-to-orange transitions for visual appeal
+- Maintain color consistency with the official logo design
+
+## File Structure & Organization
+- Use `src/` directory structure
+- Components in `src/components/`
+- App pages in `src/app/`
+- Utilities in `src/lib/` or `src/utils/`
+- Types in `src/types/`
+- Constants in `src/constants/`
+- Follow Next.js App Router conventions
+
+## Component Guidelines
+- Use functional components with TypeScript
+- Prefer Server Components unless client interaction needed
+- Use "use client" directive only when necessary
+- Export components as default exports
+- Use PascalCase for component names
+- Use kebab-case for file names (except components)
+- Create reusable components in `src/components/`
+- Import ShadCN UI components from `@/components/ui/`
+- Use ShadCN UI's component patterns and prop interfaces
+- Extend ShadCN UI components with custom variants when needed
+- Follow ShadCN UI's composition patterns for complex components
+
+## Styling Guidelines
+- Use ShadCN UI components as the primary UI library
+- Combine ShadCN UI with Tailwind CSS for custom styling
+- Follow mobile-first responsive design
+- Use semantic HTML elements
+- Implement proper accessibility (ARIA labels, alt texts)
+- Use Tailwind's design tokens for consistency
+- Prefer ShadCN UI components over custom implementations
+- Use ShadCN UI's built-in variants and styling patterns
+- Leverage ShadCN UI's theming system with CSS variables
+
+## Landing Page Requirements
+- Modern, clean, and professional design
+- Fully responsive (mobile, tablet, desktop)
+- Fast loading and optimized performance
+- SEO-friendly with proper meta tags
+- Accessible (WCAG 2.1 AA compliance)
+- Include these sections:
+  - Hero section with CTA
+  - Features/benefits section
+  - Testimonials/social proof
+  - Call-to-action sections
+  - Footer
+
+## Performance & SEO
+- Use Next.js Image component for all images
+- Implement proper metadata and OpenGraph tags
+- Use semantic HTML structure
+- Optimize Core Web Vitals
+- Implement lazy loading where appropriate
+- Use proper heading hierarchy (h1, h2, h3, etc.)
+
+## Code Patterns
+- Use custom hooks for reusable logic
+- Implement proper error boundaries
+- Use React.memo() for expensive components
+- Follow React best practices
+- Use TypeScript interfaces/types for props
+- Implement proper loading states
+
+## ShadCN UI Guidelines
+- Use ShadCN UI components for all interactive elements (buttons, inputs, cards, etc.)
+- Import components from `@/components/ui/` using the established aliases
+- Utilize ShadCN UI's built-in variants (default, destructive, outline, secondary, ghost, link)
+- Use the `cn()` utility function from `@/lib/utils` for conditional classes
+- Follow ShadCN UI's theming system with CSS custom properties
+- Prefer composition over customization when building complex components
+- Use ShadCN UI's accessibility patterns and ARIA implementations
+- Leverage ShadCN UI's responsive design patterns
+- Available components: Button, Card, Badge, Input, Textarea
+- Add more ShadCN UI components as needed with `npx shadcn@latest add [component]`
+
+## Import Organization
+- Group imports: React → Next.js → ShadCN UI → Third-party → Local
+- Use absolute imports with @ alias (@/components, @/lib, etc.)
+- Sort imports alphabetically within groups
+- Import ShadCN UI components at the top of the UI imports section
+
+## Git & Development
+- Write clear commit messages
+- Update TaskMaster AI config when completing tasks
+- Test components before committing
+- Ensure all linting passes before commits
+
+## TaskMaster AI Integration
+- Update task status in taskmaster.config.json when completing work
+- Break down complex features into smaller tasks
+- Document task completion with timestamp
+- Follow the task dependency chain
+
+## Error Handling
+- Implement proper error boundaries
+- Handle loading and error states in components
+- Use TypeScript for compile-time error prevention
+- Add proper error logging
+
+## Security
+- Sanitize user inputs
+- Use environment variables for sensitive data
+- Follow Next.js security best practices
+- Implement proper CSP headers
+
+## Testing (when implemented)
+- Write unit tests for utilities
+- Test components with React Testing Library
+- Implement integration tests for critical paths
+- Maintain good test coverage
+
+## AI Assistant Guidelines
+- Always check existing code patterns before creating new ones
+- Maintain consistency with established conventions
+- Ask for clarification if requirements are unclear
+- Update documentation when making structural changes
+- Consider performance implications of code changes
+- Follow the established file naming conventions
+- Prioritize ShadCN UI components over custom implementations
+- Use ShadCN UI's design system and theming consistently
+- Ensure proper accessibility with ShadCN UI's built-in patterns
+- **CRITICAL**: Always use Khmer/Cambodian faces in all images and maintain cultural authenticity 

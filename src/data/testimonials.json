@@ -1,0 +1,430 @@
+{
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Sophea Kem",
+      "programId": "ai-machine-learning",
+      "courseTitle": {
+        "en": "AI & Machine Learning Bootcamp",
+        "km": "វគ្គបំប៉នបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីន"
+      },
+      "testimonial": {
+        "en": "Seksaa Tech Academy completely transformed my career. The AI & Machine Learning program gave me the skills and confidence to transition from a traditional banking job to becoming a Machine Learning Engineer at a leading fintech company. The instructors were incredibly knowledgeable and supportive throughout the journey.",
+        "km": "បណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា បានផ្លាស់ប្តូរអាជីពរបស់ខ្ញុំទាំងស្រុង។ កម្មវិធីបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីនបានផ្តល់ឱ្យខ្ញុំនូវជំនាញ និងទំនុកចិត្ត។"
+      },
+      "rating": 5,
+      "studentImage": "/images/testimonials/sophea-kem.jpg",
+      "graduationDate": "2023-06-15T00:00:00Z",
+      "currentPosition": {
+        "en": "Machine Learning Engineer",
+        "km": "វិស្វករការរៀនម៉ាស៊ីន"
+      },
+      "currentCompany": "FinTech Cambodia",
+      "featured": true,
+      "beforeAfter": {
+        "before": {
+          "en": "Banking Officer with limited tech skills",
+          "km": "មន្ត្រីធនាគារដែលមានជំនាញបច្ចេកវិទ្យាមិនគ្រប់គ្រាន់"
+        },
+        "after": {
+          "en": "Senior ML Engineer leading AI initiatives",
+          "km": "វិស្វករ ML ជាន់ខ្ពស់ដែលដឹកនាំគំនិតផ្តួចផ្តើម AI"
+        }
+      },
+      "linkedin": "https://linkedin.com/in/sophea-kem"
+    },
+    {
+      "id": "testimonial-2",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Raksmey Ouk",
+      "programId": "web-development",
+      "courseTitle": {
+        "en": "Full-Stack Web Development",
+        "km": "ការអភិវឌ្ឍន៍វេបពេញលេញ"
+      },
+      "testimonial": {
+        "en": "The web development program at Seksaa Tech Academy exceeded my expectations. I went from having zero programming knowledge to building professional web applications in just 5 months. The part-time schedule was perfect for working professionals like me.",
+        "km": "កម្មវិធីការអភិវឌ្ឍន៍វេបនៅបណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា លើសពីការរំពឹងទុករបស់ខ្ញុំ។"
+      },
+      "rating": 5,
+      "studentImage": "/images/testimonials/raksmey-ouk.jpg",
+      "graduationDate": "2023-08-20T00:00:00Z",
+      "currentPosition": {
+        "en": "Full-Stack Developer",
+        "km": "អ្នកអភិវឌ្ឍន៍ពេញលេញ"
+      },
+      "currentCompany": "Digital Solutions Co.",
+      "featured": true,
+      "beforeAfter": {
+        "before": {
+          "en": "Accountant with no programming experience",
+          "km": "គណនេយ្យមិនមានបទពិសោធន៍ការសរសេរកម្មវិធី"
+        },
+        "after": {
+          "en": "Full-Stack Developer building enterprise applications",
+          "km": "អ្នកអភិវឌ្ឍន៍ពេញលេញបង្កើតកម្មវិធីសហគ្រាស"
+        }
+      }
+    },
+    {
+      "id": "testimonial-3",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Channary Lim",
+      "programId": "data-engineering",
+      "courseTitle": {
+        "en": "Data Engineering Specialization",
+        "km": "ជំនាញវិស្វកម្មទិន្នន័យ"
+      },
+      "testimonial": {
+        "en": "The data engineering program gave me the technical skills needed to advance my career in data science. The hands-on projects with real datasets and cloud platforms prepared me for the challenges I face in my current role.",
+        "km": "កម្មវិធីវិស្វកម្មទិន្នន័យបានផ្តល់ឱ្យខ្ញុំនូវជំនាញបច្ចេកទេសដែលត្រូវការដើម្បីជំរុញអាជីពរបស់ខ្ញុំ។"
+      },
+      "rating": 5,
+      "studentImage": "/images/testimonials/channary-lim.jpg",
+      "graduationDate": "2023-09-10T00:00:00Z",
+      "currentPosition": {
+        "en": "Senior Data Engineer",
+        "km": "វិស្វករទិន្នន័យជាន់ខ្ពស់"
+      },
+      "currentCompany": "TechCorp Asia",
+      "featured": false
+    },
+    {
+      "id": "testimonial-4",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Virak Seng",
+      "programId": "cybersecurity",
+      "courseTitle": {
+        "en": "Cybersecurity Fundamentals",
+        "km": "មូលដ្ឋានសុវត្ថិភាពអ៊ីនធឺណិត"
+      },
+      "testimonial": {
+        "en": "The cybersecurity program opened doors I never thought possible. From basic IT support to becoming a Security Analyst at a major bank, the comprehensive curriculum and hands-on labs prepared me for real-world challenges.",
+        "km": "កម្មវិធីសុវត្ថិភាពអ៊ីនធឺណិតបានបើកទ្វារដែលខ្ញុំមិនដែលគិតថាអាចធ្វើទៅបាន។"
+      },
+      "rating": 5,
+      "studentImage": "/images/testimonials/virak-seng.jpg",
+      "graduationDate": "2023-12-10T00:00:00Z",
+      "currentPosition": {
+        "en": "Security Analyst",
+        "km": "អ្នកវិភាគសុវត្ថិភាព"
+      },
+      "currentCompany": "Cambodia Commercial Bank",
+      "featured": true,
+      "beforeAfter": {
+        "before": {
+          "en": "IT Support Technician with basic networking knowledge",
+          "km": "បច្ចេកទេសជំនួយ IT ដែលមានចំណេះដឹងបណ្តាញមូលដ្ឋាន"
+        },
+        "after": {
+          "en": "Security Analyst protecting critical financial systems",
+          "km": "អ្នកវិភាគសុវត្ថិភាពការពារប្រព័ន្ធហិរញ្ញវត្ថុសំខាន់"
+        }
+      }
+    },
+    {
+      "id": "testimonial-5",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Sreypov Mao",
+      "programId": "mobile-development",
+      "courseTitle": {
+        "en": "Mobile App Development",
+        "km": "ការអភិវឌ្ឍន៍កម្មវិធីទូរស័ព្ទ"
+      },
+      "testimonial": {
+        "en": "Learning mobile development at Seksaa Tech Academy was the best decision I made. The Flutter and React Native courses gave me the skills to build apps that are now used by thousands of people across Cambodia.",
+        "km": "ការរៀនការអភិវឌ្ឍន៍ទូរស័ព្ទនៅបណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា គឺជាការសម្រេចចិត្តដ៏ល្អបំផុតរបស់ខ្ញុំ។"
+      },
+      "rating": 5,
+      "studentImage": "/images/testimonials/sreypov-mao.jpg",
+      "graduationDate": "2023-11-25T00:00:00Z",
+      "currentPosition": {
+        "en": "Mobile App Developer",
+        "km": "អ្នកអភិវឌ្ឍន៍កម្មវិធីទូរស័ព្ទ"
+      },
+      "currentCompany": "Khmer Mobile Solutions",
+      "featured": false,
+      "beforeAfter": {
+        "before": {
+          "en": "Graphic Designer with no programming experience",
+          "km": "អ្នករចនាក្រាហ្វិកមិនមានបទពិសោធន៍ការសរសេរកម្មវិធី"
+        },
+        "after": {
+          "en": "Mobile Developer creating innovative local apps",
+          "km": "អ្នកអភិវឌ្ឍន៍ទូរស័ព្ទបង្កើតកម្មវិធីក្នុងស្រុកប្រកបដោយភាពច្នៃប្រឌិត"
+        }
+      }
+    }
+  ],
+  "successStories": [
+    {
+      "id": "success-1",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Pisach Heng",
+      "title": {
+        "en": "From Teacher to Tech Lead: A Career Transformation",
+        "km": "ពីគ្រូបង្រៀនទៅជាបច្ចេកទេសដឹកនាំ៖ ការផ្លាស់ប្តូរអាជីព"
+      },
+      "story": {
+        "en": "Pisach was a high school mathematics teacher who always had a passion for technology. After enrolling in our AI & Machine Learning program, he dedicated evenings and weekends to mastering Python, machine learning algorithms, and data analysis. His mathematical background gave him a unique advantage in understanding complex algorithms. Today, he leads a team of 8 developers at a major e-commerce company, building recommendation systems that serve millions of users.",
+        "km": "ពិសាច្ធគឺជាគ្រូបង្រៀនគណិតវិទ្យាវិទ្យាល័យដែលតែងតែមានចំណង់ចំណូលចិត្តចំពោះបច្ចេកវិទ្យា។"
+      },
+      "programId": "ai-machine-learning",
+      "studentImage": "/images/success-stories/pisach-heng.jpg",
+      "currentPosition": {
+        "en": "Technical Lead - AI Division",
+        "km": "បច្ចេកទេសដឹកនាំ - ផ្នែក AI"
+      },
+      "currentCompany": "ShopMart Cambodia",
+      "salaryIncrease": {
+        "before": 800,
+        "after": 2500,
+        "percentage": 212,
+        "currency": "USD"
+      },
+      "timeline": {
+        "enrolled": "2022-03-01T00:00:00Z",
+        "graduated": "2022-09-15T00:00:00Z",
+        "employed": "2022-10-01T00:00:00Z"
+      },
+      "skills": ["Python", "Machine Learning", "Leadership", "System Architecture"],
+      "featured": true,
+      "quote": {
+        "en": "Seksaa Tech Academy didn't just teach me programming - they transformed my entire career trajectory.",
+        "km": "បណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា មិនត្រឹមតែបង្រៀនខ្ញុំការសរសេរកម្មវិធី - ពួកគេបានផ្លាស់ប្តូរគន្លងអាជីពទាំងមូលរបស់ខ្ញុំ។"
+      }
+    },
+    {
+      "id": "success-2",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Sovannak Chea",
+      "title": {
+        "en": "Building the Future: From Student to Startup Founder",
+        "km": "កសាងអនាគត៖ ពីនិស្សិតទៅជាស្ថាបនិកហ្ស៊ុនចាប់ផ្តើម"
+      },
+      "story": {
+        "en": "Sovannak joined our web development program as a recent university graduate with a business degree but no coding experience. The comprehensive curriculum and practical projects gave her the confidence to not only find employment but to start her own digital agency. She now employs 12 people and serves clients across Southeast Asia, specializing in e-commerce solutions for small businesses.",
+        "km": "សុវណ្ណក់បានចូលរួមកម្មវិធីការអភិវឌ្ឍន៍វេបរបស់យើងក្នុងនាមជានិស្សិតទើបបញ្ចប់ការសិក្សាដែលមានសញ្ញាបត្រអាជីវកម្ម។"
+      },
+      "programId": "web-development",
+      "studentImage": "/images/success-stories/sovannak-chea.jpg",
+      "currentPosition": {
+        "en": "Founder & CEO",
+        "km": "ស្ថាបនិក និងនាយកប្រតិបត្តិ"
+      },
+      "currentCompany": "Digital Khmer Solutions",
+      "salaryIncrease": {
+        "after": 3000,
+        "percentage": 0,
+        "currency": "USD"
+      },
+      "timeline": {
+        "enrolled": "2022-05-01T00:00:00Z",
+        "graduated": "2022-11-30T00:00:00Z",
+        "employed": "2023-01-15T00:00:00Z"
+      },
+      "skills": ["React", "Node.js", "Business Development", "Team Leadership"],
+      "featured": true,
+      "quote": {
+        "en": "The program gave me technical skills, but more importantly, it gave me the confidence to pursue my entrepreneurial dreams.",
+        "km": "កម្មវិធីនេះបានផ្តល់ឱ្យខ្ញុំនូវជំនាញបច្ចេកទេស ប៉ុន្តែសំខាន់ជាងនេះទៀត វាបានផ្តល់ឱ្យខ្ញុំនូវទំនុកចិត្ត។"
+      }
+    },
+    {
+      "id": "success-3",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Dara Khiev",
+      "title": {
+        "en": "From Factory Worker to Cloud Engineer: A Digital Transformation",
+        "km": "ពីកម្មករកម្មសិល្បទៅជាវិស្វករ Cloud៖ ការផ្លាស់ប្តូរឌីជីថល"
+      },
+      "story": {
+        "en": "Dara worked in a garment factory for 8 years before deciding to change his life through technology. Despite having only a high school education and no prior tech experience, he enrolled in our Data Engineering program. Through determination and the academy's flexible evening schedule, he mastered Python, SQL, and cloud platforms. Today, he manages data infrastructure for one of Cambodia's largest e-commerce platforms, earning 5x his previous salary and inspiring his former colleagues to pursue tech careers.",
+        "km": "ដារ៉ាបានធ្វើការនៅរោងចក្រកាត់ដេរអស់រយៈពេល ៨ ឆ្នាំ មុនពេលសម្រេចចិត្តផ្លាស់ប្តូរជីវិតរបស់គាត់តាមរយៈបច្ចេកវិទ្យា។"
+      },
+      "programId": "data-engineering",
+      "studentImage": "/images/success-stories/dara-khiev.jpg",
+      "currentPosition": {
+        "en": "Senior Data Engineer",
+        "km": "វិស្វករទិន្នន័យជាន់ខ្ពស់"
+      },
+      "currentCompany": "Khmer E-Commerce Hub",
+      "salaryIncrease": {
+        "before": 200,
+        "after": 1000,
+        "percentage": 400,
+        "currency": "USD"
+      },
+      "timeline": {
+        "enrolled": "2022-08-01T00:00:00Z",
+        "graduated": "2023-03-15T00:00:00Z",
+        "employed": "2023-04-01T00:00:00Z"
+      },
+      "skills": ["Python", "SQL", "AWS", "Data Pipeline", "ETL"],
+      "featured": true,
+      "quote": {
+        "en": "Education is the most powerful weapon to change your life. Seksaa Tech Academy gave me that weapon.",
+        "km": "ការអប់រំគឺជាអាវុធដ៏មានអំណាចបំផុតដើម្បីផ្លាស់ប្តូរជីវិតរបស់អ្នក។ បណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា បានផ្តល់អាវុធនោះឱ្យខ្ញុំ។"
+      }
+    },
+    {
+      "id": "success-4",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Mealea Pich",
+      "title": {
+        "en": "Breaking Barriers: From Rural Village to Tech Leadership",
+        "km": "បំបែកឧបសគ្គ៖ ពីភូមិជនបទទៅជាភាពជាអ្នកដឹកនាំបច្ចេកវិទ្យា"
+      },
+      "story": {
+        "en": "Mealea grew up in a rural village in Battambang province with limited internet access. After moving to Phnom Penh for university, she discovered her passion for technology. The Cybersecurity program at Seksaa Tech Academy not only gave her technical expertise but also connected her with a network of professionals. She now leads the security team at a major telecommunications company and regularly mentors other women entering tech careers.",
+        "km": "មាលា​បាន​ធំ​ឡើង​នៅ​ភូមិ​ជនបទ​ក្នុង​ខេត្ត​បាត់ដំបង​ដែល​មាន​ការ​ចូល​ប្រើ​អ៊ីនធឺណិត​មាន​កម្រិត។"
+      },
+      "programId": "cybersecurity",
+      "studentImage": "/images/success-stories/mealea-pich.jpg",
+      "currentPosition": {
+        "en": "Security Team Lead",
+        "km": "ប្រធានក្រុមសុវត្ថិភាព"
+      },
+      "currentCompany": "Cellcard Cambodia",
+      "salaryIncrease": {
+        "before": 400,
+        "after": 1800,
+        "percentage": 350,
+        "currency": "USD"
+      },
+      "timeline": {
+        "enrolled": "2022-06-01T00:00:00Z",
+        "graduated": "2023-01-20T00:00:00Z",
+        "employed": "2023-02-15T00:00:00Z"
+      },
+      "skills": ["Network Security", "Penetration Testing", "Risk Assessment", "Team Leadership"],
+      "featured": true,
+      "quote": {
+        "en": "Technology doesn't discriminate based on where you come from. With the right education and determination, anyone can succeed.",
+        "km": "បច្ចេកវិទ្យាមិនរើសអើងដោយផ្អែកលើកន្លែងដែលអ្នកមកពីនោះទេ។ ជាមួយនឹងការអប់រំត្រឹមត្រូវ និងការតាំងចិត្ត អ្នកណាក៏អាចជោគជ័យបាន។"
+      }
+    },
+    {
+      "id": "success-5",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "studentName": "Kosal Rath",
+      "title": {
+        "en": "The Mobile Revolution: Building Apps That Change Lives",
+        "km": "បដិវត្តន៍ទូរស័ព្ទ៖ ការបង្កើតកម្មវិធីដែលផ្លាស់ប្តូរជីវិត"
+      },
+      "story": {
+        "en": "Kosal was a motorcycle taxi driver who taught himself basic computer skills at internet cafes. Recognizing the potential of mobile technology in Cambodia, he enrolled in our Mobile Development program. His final project - a Khmer language learning app for children - caught the attention of international NGOs. He now runs a successful mobile development studio that creates educational apps for underserved communities across Southeast Asia.",
+        "km": "កុសលគឺជាអ្នកបើកម៉ូតូឌុបដែលបានបង្រៀនខ្លួនឯងនូវជំនាញកុំព្យូទ័រមូលដ្ឋាននៅហាងអ៊ីនធឺណិត។"
+      },
+      "programId": "mobile-development",
+      "studentImage": "/images/success-stories/kosal-rath.jpg",
+      "currentPosition": {
+        "en": "Founder & Lead Developer",
+        "km": "ស្ថាបនិក និងអ្នកអភិវឌ្ឍន៍ដឹកនាំ"
+      },
+      "currentCompany": "Khmer Tech Solutions",
+      "salaryIncrease": {
+        "before": 150,
+        "after": 2200,
+        "percentage": 1367,
+        "currency": "USD"
+      },
+      "timeline": {
+        "enrolled": "2022-09-01T00:00:00Z",
+        "graduated": "2023-04-30T00:00:00Z",
+        "employed": "2023-05-15T00:00:00Z"
+      },
+      "skills": ["Flutter", "React Native", "UI/UX Design", "Business Development"],
+      "featured": true,
+      "quote": {
+        "en": "Every line of code I write is a step toward building a better Cambodia through technology.",
+        "km": "រាល់បន្ទាត់កូដដែលខ្ញុំសរសេរគឺជាជំហានមួយឆ្ពោះទៅរកការកសាងកម្ពុជាឱ្យកាន់តែប្រសើរតាមរយៈបច្ចេកវិទ្យា។"
+      }
+    }
+  ],
+  "careerOutcomes": {
+    "placementRate": 96,
+    "averageSalaryIncrease": 285,
+    "timeToEmployment": 45,
+    "topEmployers": [
+      "Wing Bank",
+      "ACLEDA Bank",
+      "Cellcard",
+      "Smart Axiata",
+      "Grab Cambodia",
+      "PassApp",
+      "BookMeBus",
+      "Sabay Digital",
+      "Codingate",
+      "Digital Khmer"
+    ],
+    "industryDistribution": {
+      "fintech": 35,
+      "telecommunications": 20,
+      "ecommerce": 15,
+      "healthcare": 10,
+      "education": 8,
+      "government": 7,
+      "startups": 5
+    }
+  },
+  "projectPortfolio": [
+    {
+      "id": "project-1",
+      "title": "Khmer OCR Mobile App",
+      "description": "AI-powered mobile app that can read and translate Khmer text from images",
+      "category": "AI & Machine Learning",
+      "program": "AI & Machine Learning Bootcamp",
+      "technologies": ["Python", "TensorFlow", "Flutter", "Firebase"],
+      "imageUrl": "/images/projects/khmer-ocr.jpg",
+      "demoUrl": "https://demo.khmer-ocr.com",
+      "githubUrl": "https://github.com/sophea/khmer-ocr",
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "Cambodia Tourism Platform",
+      "description": "Full-stack web platform connecting tourists with local guides and experiences",
+      "category": "Web Development",
+      "program": "Full-Stack Web Development",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+      "imageUrl": "/images/projects/tourism-platform.jpg",
+      "demoUrl": "https://visit-cambodia.demo.com",
+      "githubUrl": "https://github.com/raksmey/cambodia-tourism",
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "Smart Agriculture IoT System",
+      "description": "IoT-based system for monitoring crop conditions and automating irrigation",
+      "category": "Data Engineering",
+      "program": "Data Engineering Specialization",
+      "technologies": ["Python", "AWS IoT", "PostgreSQL", "React"],
+      "imageUrl": "/images/projects/smart-agriculture.jpg",
+      "demoUrl": "https://smart-farm.demo.com",
+      "githubUrl": "https://github.com/dara/smart-agriculture",
+      "featured": true
+    }
+  ]
+} 

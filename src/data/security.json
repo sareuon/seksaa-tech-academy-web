@@ -1,0 +1,319 @@
+{
+  "privacyPolicy": {
+    "lastUpdated": "2024-01-15",
+    "version": "1.0",
+    "sections": [
+      {
+        "id": "information-collection",
+        "title": {
+          "en": "Information We Collect",
+          "km": "ព័ត៌មានដែលយើងប្រមូល"
+        },
+        "content": {
+          "en": "We collect information you provide directly to us, such as when you create an account, enroll in a program, or contact us for support. This includes your name, email address, phone number, educational background, and payment information.",
+          "km": "យើងប្រមូលព័ត៌មានដែលអ្នកផ្តល់ដោយផ្ទាល់ដល់យើង ដូចជានៅពេលអ្នកបង្កើតគណនី ចុះឈ្មោះចូលរៀនកម្មវិធី ឬទាក់ទងយើងសម្រាប់ការគាំទ្រ។ នេះរួមបញ្ចូលឈ្មោះ អាសយដ្ឋានអ៊ីមែល លេខទូរសព្ទ ប្រវត្តិការអប់រំ និងព័ត៌មានការទូទាត់របស់អ្នក។"
+        }
+      },
+      {
+        "id": "information-use",
+        "title": {
+          "en": "How We Use Your Information",
+          "km": "របៀបដែលយើងប្រើប្រាស់ព័ត៌មានរបស់អ្នក"
+        },
+        "content": {
+          "en": "We use the information we collect to provide, maintain, and improve our services, process enrollments and payments, communicate with you about your courses, and send you important updates about our programs.",
+          "km": "យើងប្រើប្រាស់ព័ត៌មានដែលយើងប្រមូលដើម្បីផ្តល់ រក្សា និងកែលម្អសេវាកម្មរបស់យើង ដំណើរការការចុះឈ្មោះ និងការទូទាត់ ទំនាក់ទំនងជាមួយអ្នកអំពីវគ្គសិក្សារបស់អ្នក និងផ្ញើការអាប់ដេតសំខាន់ៗអំពីកម្មវិធីរបស់យើង។"
+        }
+      },
+      {
+        "id": "information-sharing",
+        "title": {
+          "en": "Information Sharing",
+          "km": "ការចែករំលែកព័ត៌មាន"
+        },
+        "content": {
+          "en": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share information with trusted service providers who assist us in operating our website and conducting our business.",
+          "km": "យើងមិនលក់ ដូរ ឬផ្ទេរព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកទៅភាគីទីបីដោយគ្មានការយល់ព្រមរបស់អ្នកទេ លើកលែងតែករណីដែលបានពិពណ៌នានៅក្នុងគោលការណ៍នេះ។ យើងអាចចែករំលែកព័ត៌មានជាមួយអ្នកផ្តល់សេវាកម្មដែលអាចទុកចិត្តបាន ដែលជួយយើងក្នុងការដំណើរការគេហទំព័រ និងធ្វើអាជីវកម្មរបស់យើង។"
+        }
+      },
+      {
+        "id": "data-security",
+        "title": {
+          "en": "Data Security",
+          "km": "សុវត្ថិភាពទិន្នន័យ"
+        },
+        "content": {
+          "en": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes encryption, secure servers, and regular security audits.",
+          "km": "យើងអនុវត្តវិធានការសុវត្ថិភាពសមស្របដើម្បីការពារព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នកពីការចូលដំណើរការដោយគ្មានការអនុញ្ញាត ការកែប្រែ ការបង្ហាញ ឬការបំផ្លាញ។ នេះរួមបញ្ចូលការអ៊ិនគ្រីប សេវ៉ែរសុវត្ថិភាព និងការត្រួតពិនិត្យសុវត្ថិភាពជាទៀងទាត់។"
+        }
+      },
+      {
+        "id": "your-rights",
+        "title": {
+          "en": "Your Rights",
+          "km": "សិទ្ធិរបស់អ្នក"
+        },
+        "content": {
+          "en": "You have the right to access, update, or delete your personal information. You can also opt out of certain communications and request a copy of your data. Contact us to exercise these rights.",
+          "km": "អ្នកមានសិទ្ធិចូលដំណើរការ អាប់ដេត ឬលុបព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នក។ អ្នកក៏អាចជ្រើសរើសមិនទទួលការទំនាក់ទំនងមួយចំនួន និងស្នើសុំច្បាប់ចម្លងទិន្នន័យរបស់អ្នក។ ទាក់ទងយើងដើម្បីអនុវត្តសិទ្ធិទាំងនេះ។"
+        }
+      }
+    ]
+  },
+  "termsOfService": {
+    "lastUpdated": "2024-01-15",
+    "version": "1.0",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": {
+          "en": "Acceptance of Terms",
+          "km": "ការទទួលយកលក្ខខណ្ឌ"
+        },
+        "content": {
+          "en": "By accessing and using Seksaa Tech Academy's services, you accept and agree to be bound by the terms and provision of this agreement.",
+          "km": "ដោយការចូលដំណើរការ និងប្រើប្រាស់សេវាកម្មរបស់ Seksaa Tech Academy អ្នកទទួលយក និងយល់ព្រមត្រូវបានកំណត់ដោយលក្ខខណ្ឌ និងបទប្បញ្ញត្តិនៃកិច្ចព្រមព្រៀងនេះ។"
+        }
+      },
+      {
+        "id": "services",
+        "title": {
+          "en": "Description of Services",
+          "km": "ការពិពណ៌នាអំពីសេវាកម្ម"
+        },
+        "content": {
+          "en": "Seksaa Tech Academy provides online and in-person technology education programs, including courses in AI/ML, web development, mobile development, data engineering, and cybersecurity.",
+          "km": "Seksaa Tech Academy ផ្តល់កម្មវិធីអប់រំបច្ចេកវិទ្យាតាមអនឡាញ និងដោយផ្ទាល់ រួមទាំងវគ្គសិក្សាអំពី AI/ML ការអភិវឌ្ឍន៍គេហទំព័រ ការអភិវឌ្ឍន៍ទូរសព្ទ វិស្វកម្មទិន្នន័យ និងសុវត្ថិភាពអ៊ីនធឺណិត។"
+        }
+      },
+      {
+        "id": "enrollment",
+        "title": {
+          "en": "Enrollment and Payment",
+          "km": "ការចុះឈ្មោះ និងការទូទាត់"
+        },
+        "content": {
+          "en": "Enrollment in our programs requires completion of the application process and payment of applicable fees. All fees are non-refundable unless otherwise specified in our refund policy.",
+          "km": "ការចុះឈ្មោះក្នុងកម្មវិធីរបស់យើងតម្រូវឱ្យបញ្ចប់ដំណើរការដាក់ពាក្យ និងការទូទាត់ថ្លៃសេវាដែលអាចអនុវត្តបាន។ ថ្លៃសេវាទាំងអស់មិនអាចសងវិញបានទេ លើកលែងតែបានបញ្ជាក់ផ្សេងក្នុងគោលការណ៍សងប្រាក់វិញរបស់យើង។"
+        }
+      },
+      {
+        "id": "conduct",
+        "title": {
+          "en": "Student Conduct",
+          "km": "អាកប្បកិរិយាសិស្ស"
+        },
+        "content": {
+          "en": "Students are expected to maintain professional conduct, respect fellow students and instructors, and comply with all academy policies and procedures.",
+          "km": "សិស្សត្រូវបានរំពឹងថានឹងរក្សាអាកប្បកិរិយាវិជ្ជាជីវៈ គោរពសិស្សដទៃ និងគ្រូបង្រៀន និងអនុលោមតាមគោលការណ៍ និងនីតិវិធីទាំងអស់របស់បណ្ឌិតសភា។"
+        }
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "lastUpdated": "2024-01-15",
+    "version": "1.0",
+    "categories": [
+      {
+        "id": "essential",
+        "name": {
+          "en": "Essential Cookies",
+          "km": "ខូគីសំខាន់"
+        },
+        "description": {
+          "en": "These cookies are necessary for the website to function and cannot be switched off in our systems.",
+          "km": "ខូគីទាំងនេះចាំបាច់សម្រាប់គេហទំព័រដើម្បីដំណើរការ និងមិនអាចបិទបានក្នុងប្រព័ន្ធរបស់យើងទេ។"
+        },
+        "required": true,
+        "cookies": [
+          {
+            "name": "session_id",
+            "purpose": "Maintains user session",
+            "duration": "Session",
+            "type": "HTTP"
+          },
+          {
+            "name": "csrf_token",
+            "purpose": "Security protection",
+            "duration": "Session",
+            "type": "HTTP"
+          }
+        ]
+      },
+      {
+        "id": "analytics",
+        "name": {
+          "en": "Analytics Cookies",
+          "km": "ខូគីវិភាគ"
+        },
+        "description": {
+          "en": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.",
+          "km": "ខូគីទាំងនេះជួយយើងយល់ពីរបៀបដែលអ្នកទស្សនាធ្វើអន្តរកម្មជាមួយគេហទំព័ររបស់យើងដោយការប្រមូល និងរាយការណ៍ព័ត៌មានដោយអនាមិក។"
+        },
+        "required": false,
+        "cookies": [
+          {
+            "name": "_ga",
+            "purpose": "Google Analytics tracking",
+            "duration": "2 years",
+            "type": "HTTP"
+          },
+          {
+            "name": "_gid",
+            "purpose": "Google Analytics session tracking",
+            "duration": "24 hours",
+            "type": "HTTP"
+          }
+        ]
+      },
+      {
+        "id": "marketing",
+        "name": {
+          "en": "Marketing Cookies",
+          "km": "ខូគីទីផ្សារ"
+        },
+        "description": {
+          "en": "These cookies are used to track visitors across websites to display relevant advertisements.",
+          "km": "ខូគីទាំងនេះត្រូវបានប្រើដើម្បីតាមដានអ្នកទស្សនាឆ្លងកាត់គេហទំព័រដើម្បីបង្ហាញការផ្សាយពាណិជ្ជកម្មដែលពាក់ព័ន្ធ។"
+        },
+        "required": false,
+        "cookies": [
+          {
+            "name": "fb_pixel",
+            "purpose": "Facebook advertising",
+            "duration": "90 days",
+            "type": "HTTP"
+          }
+        ]
+      }
+    ]
+  },
+  "gdprCompliance": {
+    "dataProcessingBasis": [
+      {
+        "type": "consent",
+        "description": "User explicitly consents to data processing for marketing communications"
+      },
+      {
+        "type": "contract",
+        "description": "Processing necessary for enrollment and course delivery"
+      },
+      {
+        "type": "legitimate_interest",
+        "description": "Processing for website analytics and service improvement"
+      }
+    ],
+    "dataRetention": {
+      "studentRecords": "7 years after course completion",
+      "marketingData": "2 years or until consent withdrawn",
+      "analyticsData": "26 months",
+      "supportTickets": "3 years after resolution"
+    },
+    "dataSubjectRights": [
+      "right_to_access",
+      "right_to_rectification",
+      "right_to_erasure",
+      "right_to_restrict_processing",
+      "right_to_data_portability",
+      "right_to_object",
+      "right_to_withdraw_consent"
+    ]
+  },
+  "securityMeasures": {
+    "encryption": {
+      "inTransit": "TLS 1.3",
+      "atRest": "AES-256",
+      "database": "Encrypted at rest and in transit"
+    },
+    "authentication": {
+      "passwordPolicy": {
+        "minLength": 8,
+        "requireUppercase": true,
+        "requireLowercase": true,
+        "requireNumbers": true,
+        "requireSpecialChars": true,
+        "maxAge": 90
+      },
+      "twoFactorAuth": {
+        "enabled": true,
+        "methods": ["SMS", "authenticator_app", "email"]
+      },
+      "sessionManagement": {
+        "timeout": 30,
+        "maxConcurrentSessions": 3,
+        "secureFlags": true
+      }
+    },
+    "accessControl": {
+      "roleBasedAccess": true,
+      "principleOfLeastPrivilege": true,
+      "regularAccessReviews": true
+    },
+    "monitoring": {
+      "securityLogs": true,
+      "intrusionDetection": true,
+      "vulnerabilityScanning": true,
+      "incidentResponse": true
+    }
+  },
+  "complianceFrameworks": [
+    {
+      "name": "GDPR",
+      "description": "General Data Protection Regulation",
+      "status": "compliant",
+      "lastAudit": "2024-01-01"
+    },
+    {
+      "name": "CCPA",
+      "description": "California Consumer Privacy Act",
+      "status": "compliant",
+      "lastAudit": "2024-01-01"
+    },
+    {
+      "name": "SOC 2",
+      "description": "Service Organization Control 2",
+      "status": "in_progress",
+      "targetDate": "2024-06-01"
+    }
+  ],
+  "incidentResponse": {
+    "contacts": [
+      {
+        "role": "Security Officer",
+        "email": "security@seksaatech.com",
+        "phone": "+855 12 345 678"
+      },
+      {
+        "role": "Data Protection Officer",
+        "email": "dpo@seksaatech.com",
+        "phone": "+855 12 345 679"
+      }
+    ],
+    "procedures": [
+      {
+        "step": 1,
+        "action": "Immediate containment of the incident"
+      },
+      {
+        "step": 2,
+        "action": "Assessment of impact and affected data"
+      },
+      {
+        "step": 3,
+        "action": "Notification to relevant authorities within 72 hours"
+      },
+      {
+        "step": 4,
+        "action": "Communication to affected individuals"
+      },
+      {
+        "step": 5,
+        "action": "Investigation and remediation"
+      },
+      {
+        "step": 6,
+        "action": "Documentation and lessons learned"
+      }
+    ]
+  }
+} 

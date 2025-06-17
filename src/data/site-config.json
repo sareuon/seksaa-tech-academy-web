@@ -1,0 +1,18 @@
+{
+  "general": {
+    "siteName": {
+      "en": "Seksaa Tech Academy",
+      "km": "បណ្ឌិត្យសាលាបច្ចេកវិទ្យា សេក្សា"
+    },
+    "description": {
+      "en": "Leading tech academy in Cambodia offering part-time STEM and IT programs with 100% job placement rate.",
+      "km": "បណ្ឌិត្យសាលាបច្ចេកវិទ្យាឈានមុខគេក្នុងកម្ពុជាដែលផ្តល់កម្មវិធី STEM និង IT បកបានការងារ 100%។"
+    },
+    "defaultLanguage": "en"
+  },
+  "statistics": {
+    "totalGraduates": 200,
+    "jobPlacementRate": 100,
+    "totalBootcamps": 5
+  }
+} 

@@ -1,0 +1,423 @@
+{
+  "programs": [
+    {
+      "id": "ai-machine-learning",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "AI & Machine Learning",
+        "km": "បញ្ញាប្រឌិត និង ការរៀនម៉ាស៊ីន"
+      },
+      "shortDescription": {
+        "en": "Master artificial intelligence and machine learning with hands-on projects using Python, TensorFlow, and real-world datasets.",
+        "km": "ស្វែងយល់ពីបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីនតាមរយៈគម្រោងជាក់ស្តែងដោយប្រើ Python, TensorFlow និងទិន្នន័យពិតប្រាកដ។"
+      },
+      "fullDescription": {
+        "en": "Our comprehensive AI & Machine Learning program prepares you for the future of technology. Learn to build intelligent systems, analyze complex data, and create innovative solutions using cutting-edge tools and techniques.",
+        "km": "កម្មវិធីបញ្ញាប្រឌិត និងការរៀនម៉ាស៊ីនរបស់យើងរៀបចំអ្នកសម្រាប់អនាគតនៃបច្ចេកវិទ្យា។ រៀនបង្កើតប្រព័ន្ធវាងវៃ វិភាគទិន្នន័យស្មុគស្មាញ និងបង្កើតដំណោះស្រាយថ្មីៗដោយប្រើឧបករណ៍ និងបច្ចេកទេសទំនើប។"
+      },
+      "slug": "ai-machine-learning",
+      "category": "ai",
+      "level": "intermediate",
+      "duration": {
+        "weeks": 16,
+        "hoursPerWeek": 12,
+        "totalHours": 192
+      },
+      "format": "hybrid",
+      "prerequisites": [
+        {
+          "en": "Basic programming knowledge (Python recommended)",
+          "km": "ចំណេះដឹងការសរសេរកម្មវិធីមូលដ្ឋាន (ណែនាំ Python)"
+        },
+        {
+          "en": "Understanding of mathematics and statistics",
+          "km": "ការយល់ដឹងគណិតវិទ្យា និងស្ថិតិ"
+        }
+      ],
+      "learningOutcomes": [
+        {
+          "en": "Build and deploy machine learning models",
+          "km": "បង្កើត និងដាក់ប្រើប្រាស់ម៉ូដែលការរៀនម៉ាស៊ីន"
+        },
+        {
+          "en": "Implement neural networks and deep learning algorithms",
+          "km": "អនុវត្តបណ្តាញណឺរ៉ូន និងក្បួនដោះស្រាយការរៀនយ៉ាងជ្រៅ"
+        },
+        {
+          "en": "Work with big data and cloud platforms",
+          "km": "ធ្វើការជាមួយទិន្នន័យធំ និងវេទិកាពពក"
+        }
+      ],
+      "modules": [
+        {
+          "id": "intro-ai-ml",
+          "title": {
+            "en": "Introduction to AI & ML",
+            "km": "ការណែនាំទៅកាន់ AI & ML"
+          },
+          "description": {
+            "en": "Fundamentals of artificial intelligence and machine learning concepts",
+            "km": "មូលដ្ឋានគរុកោសល្យនៃបញ្ញាប្រឌិត និងគោលគំនិតការរៀនម៉ាស៊ីន"
+          },
+          "duration": 24,
+          "objectives": [
+            {
+              "en": "Understand AI and ML fundamentals",
+              "km": "យល់ដឹងពីមូលដ្ឋាន AI និង ML"
+            }
+          ]
+        },
+        {
+          "id": "python-data-science",
+          "title": {
+            "en": "Python for Data Science",
+            "km": "Python សម្រាប់វិទ្យាសាស្ត្រទិន្នន័យ"
+          },
+          "description": {
+            "en": "Master Python programming for data analysis and machine learning",
+            "km": "ស្វែងយល់ការសរសេរកម្មវិធី Python សម្រាប់ការវិភាគទិន្នន័យ និងការរៀនម៉ាស៊ីន"
+          },
+          "duration": 32,
+          "objectives": [
+            {
+              "en": "Master Python libraries for data science",
+              "km": "ស្វែងយល់បណ្ណាល័យ Python សម្រាប់វិទ្យាសាស្ត្រទិន្នន័យ"
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Python Programming",
+          "category": "technical",
+          "level": "advanced"
+        },
+        {
+          "name": "TensorFlow",
+          "category": "tool",
+          "level": "intermediate"
+        },
+        {
+          "name": "Data Analysis",
+          "category": "technical",
+          "level": "advanced"
+        },
+        {
+          "name": "Problem Solving",
+          "category": "soft",
+          "level": "advanced"
+        }
+      ],
+      "instructorIds": ["prof-sokha", "dr-mey"],
+      "featured": true,
+      "enrollmentStatus": "open",
+      "pricing": {
+        "fullPrice": 1500,
+        "currency": "USD"
+      },
+      "careerOutcomes": {
+        "placementRate": 96,
+        "averageSalary": {
+          "min": 65000,
+          "max": 120000,
+          "currency": "USD"
+        },
+        "jobTitles": [
+          { "en": "Machine Learning Engineer", "km": "វិស្វករការរៀនម៉ាស៊ីន" },
+          { "en": "AI Developer", "km": "អ្នកអភិវឌ្ឍន៍ AI" },
+          { "en": "Data Scientist", "km": "អ្នកវិទ្យាសាស្ត្រទិន្នន័យ" },
+          { "en": "Research Scientist", "km": "អ្នកវិទ្យាសាស្ត្រស្រាវជ្រាវ" }
+        ]
+      },
+      "schedule": {
+        "days": ["monday", "wednesday", "friday"],
+        "timeSlots": ["18:00-21:00"],
+        "startDates": ["2024-02-15", "2024-05-15", "2024-08-15"]
+      },
+      "certification": {
+        "title": {
+          "en": "Certificate in AI & Machine Learning",
+          "km": "សញ្ញាបត្រក្នុងវិស័យ AI និង Machine Learning"
+        },
+        "accreditation": "Seksaa Tech Academy",
+        "validityPeriod": "Lifetime"
+      },
+      "tags": ["ai", "machine-learning", "python", "tensorflow", "data-science"],
+      "gallery": {
+        "thumbnail": "/images/programs/ai-ml-thumbnail.jpg",
+        "images": [
+          "/images/programs/ai-ml-1.jpg",
+          "/images/programs/ai-ml-2.jpg",
+          "/images/programs/ai-ml-3.jpg"
+        ],
+        "videos": ["/videos/programs/ai-ml-intro.mp4"]
+      }
+    },
+    {
+      "id": "data-engineering",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Data Engineering",
+        "km": "វិស្វកម្មទិន្នន័យ"
+      },
+      "shortDescription": {
+        "en": "Build scalable data pipelines and analytics systems using modern cloud technologies and big data tools.",
+        "km": "បង្កើតបណ្តាញទិន្នន័យ និងប្រព័ន្ធវិភាគដែលអាចធ្វើមាត្រដ្ឋានបានដោយប្រើបច្ចេកវិទ្យាពពក និងឧបករណ៍ទិន្នន័យធំ។"
+      },
+      "fullDescription": {
+        "en": "Learn to design and build robust data infrastructure that powers modern businesses. Master cloud platforms, big data technologies, and best practices for data pipeline development.",
+        "km": "រៀនរចនា និងបង្កើតហេដ្ឋារចនាសម្ព័ន្ធទិន្នន័យដ៏រឹងមាំដែលជំរុញអាជីវកម្មទំនើប។ ស្វែងយល់វេទិកាពពក បច្ចេកវិទ្យាទិន្នន័យធំ និងការអនុវត្តល្អបំផុតសម្រាប់ការអភិវឌ្ឍបណ្តាញទិន្នន័យ។"
+      },
+      "slug": "data-engineering",
+      "category": "data",
+      "level": "advanced",
+      "duration": {
+        "weeks": 12,
+        "hoursPerWeek": 15,
+        "totalHours": 180
+      },
+      "format": "online",
+      "prerequisites": [
+        {
+          "en": "Strong programming skills (Python/SQL)",
+          "km": "ជំនាញការសរសេរកម្មវិធីខ្លាំង (Python/SQL)"
+        },
+        {
+          "en": "Database management experience",
+          "km": "បទពិសោធន៍គ្រប់គ្រងមូលដ្ឋានទិន្នន័យ"
+        }
+      ],
+      "learningOutcomes": [
+        {
+          "en": "Design and implement data pipelines",
+          "km": "រចនា និងអនុវត្តបណ្តាញទិន្នន័យ"
+        },
+        {
+          "en": "Master cloud platforms (AWS, GCP)",
+          "km": "ស្វែងយល់វេទិកាពពក (AWS, GCP)"
+        },
+        {
+          "en": "Build real-time data processing systems",
+          "km": "បង្កើតប្រព័ន្ធដំណើរការទិន្នន័យតាមពេលវេលាជាក់ស្តែង"
+        }
+      ],
+      "modules": [
+        {
+          "id": "data-pipeline-fundamentals",
+          "title": {
+            "en": "Data Pipeline Fundamentals",
+            "km": "មូលដ្ឋានបណ្តាញទិន្នន័យ"
+          },
+          "description": {
+            "en": "Learn the basics of data pipeline architecture and design patterns",
+            "km": "រៀនមូលដ្ឋាននៃស្ថាបត្យកម្មបណ្តាញទិន្នន័យ និងគំរូរចនា"
+          },
+          "duration": 30,
+          "objectives": [
+            {
+              "en": "Understand data pipeline concepts",
+              "km": "យល់ដឹងពីគោលគំនិតបណ្តាញទិន្នន័យ"
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "Apache Spark",
+          "category": "tool",
+          "level": "advanced"
+        },
+        {
+          "name": "AWS/GCP",
+          "category": "tool",
+          "level": "intermediate"
+        },
+        {
+          "name": "SQL",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "instructorIds": ["eng-david", "prof-sokha"],
+      "featured": true,
+      "enrollmentStatus": "open",
+      "pricing": {
+        "fullPrice": 1800,
+        "currency": "USD"
+      },
+      "careerOutcomes": {
+        "placementRate": 94,
+        "averageSalary": {
+          "min": 70000,
+          "max": 130000,
+          "currency": "USD"
+        },
+        "jobTitles": [
+          { "en": "Data Engineer", "km": "វិស្វករទិន្នន័យ" },
+          { "en": "Cloud Data Architect", "km": "ស្ថាបត្យករទិន្នន័យពពក" },
+          { "en": "Big Data Specialist", "km": "អ្នកឯកទេសទិន្នន័យធំ" },
+          { "en": "Analytics Engineer", "km": "វិស្វករវិភាគ" }
+        ]
+      },
+      "schedule": {
+        "days": ["tuesday", "thursday", "saturday"],
+        "timeSlots": ["09:00-12:00"],
+        "startDates": ["2024-03-01", "2024-06-01", "2024-09-01"]
+      },
+      "certification": {
+        "title": {
+          "en": "Certificate in Data Engineering",
+          "km": "សញ្ញាបត្រក្នុងវិស័យវិស្វកម្មទិន្នន័យ"
+        },
+        "accreditation": "Seksaa Tech Academy",
+        "validityPeriod": "Lifetime"
+      },
+      "tags": ["data-engineering", "big-data", "cloud", "aws", "spark"],
+      "gallery": {
+        "thumbnail": "/images/programs/data-eng-thumbnail.jpg",
+        "images": [
+          "/images/programs/data-eng-1.jpg",
+          "/images/programs/data-eng-2.jpg",
+          "/images/programs/data-eng-3.jpg"
+        ],
+        "videos": ["/videos/programs/data-eng-intro.mp4"]
+      }
+    },
+    {
+      "id": "web-development",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-15T00:00:00Z",
+      "isActive": true,
+      "title": {
+        "en": "Web Development",
+        "km": "ការអភិវឌ្ឍន៍វេបសាយ"
+      },
+      "shortDescription": {
+        "en": "Full-stack development with modern frameworks and tools. Build responsive web applications from scratch.",
+        "km": "ការអភិវឌ្ឍន៍ពេញលេញជាមួយស្តារពុម្ព និងឧបករណ៍ទំនើប។ បង្កើតកម្មវិធីវេបដែលឆ្លើយតបពីដើម។"
+      },
+      "fullDescription": {
+        "en": "Master the complete web development stack from frontend to backend. Learn modern frameworks, database design, and deployment strategies to build professional web applications.",
+        "km": "ស្វែងយល់ការអភិវឌ្ឍន៍វេបពេញលេញពីផ្នែកមុខទៅផ្នែកខាងក្រោយ។ រៀនស្តារពុម្ពទំនើប ការរចនាមូលដ្ឋានទិន្នន័យ និងយុទ្ធសាស្ត្រដាក់ប្រើប្រាស់ដើម្បីបង្កើតកម្មវិធីវេបវិជ្ជាជីវៈ។"
+      },
+      "slug": "web-development",
+      "category": "web",
+      "level": "beginner",
+      "duration": {
+        "weeks": 20,
+        "hoursPerWeek": 10,
+        "totalHours": 200
+      },
+      "format": "in-person",
+      "prerequisites": [
+        {
+          "en": "Basic computer skills",
+          "km": "ជំនាញកុំព្យូទ័រមូលដ្ឋាន"
+        },
+        {
+          "en": "No programming experience required",
+          "km": "មិនត្រូវការបទពិសោធន៍ការសរសេរកម្មវិធីទេ"
+        }
+      ],
+      "learningOutcomes": [
+        {
+          "en": "Build full-stack web applications",
+          "km": "បង្កើតកម្មវិធីវេបពេញលេញ"
+        },
+        {
+          "en": "Master React and Next.js",
+          "km": "ស្វែងយល់ React និង Next.js"
+        },
+        {
+          "en": "Deploy applications to production",
+          "km": "ដាក់ប្រើប្រាស់កម្មវិធីទៅកាន់ផលិតកម្ម"
+        }
+      ],
+      "modules": [
+        {
+          "id": "html-css-basics",
+          "title": {
+            "en": "HTML & CSS Fundamentals",
+            "km": "មូលដ្ឋាន HTML & CSS"
+          },
+          "description": {
+            "en": "Learn the building blocks of web development",
+            "km": "រៀនប្លុកសាងសង់នៃការអភិវឌ្ឍន៍វេប"
+          },
+          "duration": 40,
+          "objectives": [
+            {
+              "en": "Create semantic HTML structure",
+              "km": "បង្កើតរចនាសម្ព័ន្ធ HTML semantic"
+            }
+          ]
+        }
+      ],
+      "skills": [
+        {
+          "name": "React",
+          "category": "technical",
+          "level": "intermediate"
+        },
+        {
+          "name": "Next.js",
+          "category": "tool",
+          "level": "intermediate"
+        },
+        {
+          "name": "JavaScript",
+          "category": "technical",
+          "level": "advanced"
+        }
+      ],
+      "instructorIds": ["dev-sarah", "eng-david"],
+      "featured": true,
+      "enrollmentStatus": "open",
+      "pricing": {
+        "fullPrice": 1200,
+        "currency": "USD"
+      },
+      "careerOutcomes": {
+        "placementRate": 98,
+        "averageSalary": {
+          "min": 55000,
+          "max": 95000,
+          "currency": "USD"
+        },
+        "jobTitles": [
+          { "en": "Frontend Developer", "km": "អ្នកអភិវឌ្ឍន៍ផ្នែកមុខ" },
+          { "en": "Full Stack Developer", "km": "អ្នកអភិវឌ្ឍន៍ពេញលេញ" },
+          { "en": "Web Developer", "km": "អ្នកអភិវឌ្ឍន៍វេប" },
+          { "en": "React Developer", "km": "អ្នកអភិវឌ្ឍន៍ React" }
+        ]
+      },
+      "schedule": {
+        "days": ["monday", "wednesday", "friday"],
+        "timeSlots": ["19:00-22:00"],
+        "startDates": ["2024-02-01", "2024-04-01", "2024-07-01"]
+      },
+      "certification": {
+        "title": {
+          "en": "Certificate in Web Development",
+          "km": "សញ្ញាបត្រក្នុងវិស័យការអភិវឌ្ឍន៍វេប"
+        },
+        "accreditation": "Seksaa Tech Academy",
+        "validityPeriod": "Lifetime"
+      },
+      "tags": ["web-development", "react", "nextjs", "javascript", "fullstack"],
+      "gallery": {
+        "thumbnail": "/images/programs/web-dev-thumbnail.jpg",
+        "images": [
+          "/images/programs/web-dev-1.jpg",
+          "/images/programs/web-dev-2.jpg",
+          "/images/programs/web-dev-3.jpg"
+        ],
+        "videos": ["/videos/programs/web-dev-intro.mp4"]
+      }
+    }
+  ]
+} 
