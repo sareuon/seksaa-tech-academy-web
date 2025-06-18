@@ -30,27 +30,27 @@ declare namespace __next_route_internal_types__ {
 
   type StaticRoutes = 
     | `/admin`
+    | `/admin/students`
+    | `/blog`
     | `/contact`
     | `/enroll`
     | `/`
-    | `/programs`
-    | `/blog`
-    | `/admin/students`
-    | `/schedule/booking-confirmation`
-    | `/success-stories`
-    | `/schedule`
     | `/instructors`
+    | `/programs`
+    | `/schedule/booking-confirmation`
+    | `/schedule`
+    | `/success-stories`
     | `/cookies`
     | `/code-of-conduct`
-    | `/gallery`
     | `/security`
+    | `/gallery`
     | `/privacy`
     | `/terms`
   type DynamicRoutes<T extends string = string> = 
-    | `/enroll/${SafeSlug<T>}`
-    | `/programs/${SafeSlug<T>}`
     | `/instructors/${SafeSlug<T>}`
+    | `/enroll/${SafeSlug<T>}`
     | `/success-stories/${SafeSlug<T>}`
+    | `/programs/${SafeSlug<T>}`
 
   type RouteImpl<T> = 
     | StaticRoutes

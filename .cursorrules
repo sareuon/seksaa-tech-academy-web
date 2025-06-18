@@ -7,7 +7,41 @@ Framework: Next.js with App Router
 Language: TypeScript
 Styling: Tailwind CSS + ShadCN UI
 UI Library: ShadCN UI (Default style, Slate base color)
-Task Management: TaskMaster AI configured
+Task Management: TaskMaster AI configured (v0.17.0)
+
+## Current Project Status (Updated: December 2024)
+- **Development Phase**: Core Development Complete (64% - 16/25 tasks)
+- **Dependencies**: ✅ Cleaned and optimized (306 packages removed)
+- **Core Features**: ✅ All main website functionality implemented
+- **Performance Tools**: ✅ Bundle analyzer and Lighthouse ready
+- **Ready for Production**: ❌ Requires high-priority tasks completion
+- **Next Major Milestone**: Production-ready release
+
+### ✅ Recent Achievements (December 2024)
+- **Package Cleanup**: Removed unused dependencies (framer-motion, fuse.js, next-themes, testing libs)
+- **Dependencies Updated**: All packages updated to latest compatible versions
+- **Performance Tools**: Added @next/bundle-analyzer and lighthouse for optimization
+- **Build Optimization**: 35 static pages, 87.3 kB shared bundle, no linting errors
+- **Security**: Zero vulnerabilities detected
+
+### High Priority Tasks (Must Complete Before Production)
+1. **Multilingual Support (English/Khmer)** - Critical for Cambodian market
+2. **SEO & Analytics Implementation** - Essential for discoverability
+3. **Performance Optimization** - Required for production performance
+4. **SST Deployment & CI/CD** - Modern serverless deployment to AWS S3
+
+### Completed Core Features
+- ✅ Landing page with hero, programs, testimonials
+- ✅ Programs & courses system with enrollment
+- ✅ Schedule & booking system
+- ✅ Instructor profiles and management
+- ✅ Student success stories and testimonials
+- ✅ Contact forms and communication
+- ✅ Admin dashboard with analytics
+- ✅ Gallery and activity showcase
+- ✅ Legal pages and security compliance
+- ✅ Advanced UI features and visual enhancements
+- ✅ Package dependencies cleanup and optimization
 
 ## Cultural Authenticity & Image Guidelines
 - **ALWAYS use Khmer/Cambodian faces in all images** - This is a Cambodian tech academy and representation matters
@@ -20,6 +54,41 @@ Task Management: TaskMaster AI configured
 - Maintain authentic representation while showing modern, professional tech education
 - Example image searches: "Asian students coding", "Southeast Asian tech professionals", "Asian developers"
 
+## Multilingual Development Guidelines (HIGH PRIORITY)
+- **Primary Languages**: English (default) and Khmer (ខ្មែរ)
+- **i18n Library**: Use next-intl (already installed and updated to v3.26.5)
+- **Translation Files**: Create in `src/data/translations/`
+- **Language Toggle**: Implement in header navigation
+- **Text Direction**: Ensure proper LTR support for both languages
+- **Content Strategy**: Translate all UI content, form labels, error messages
+- **Priority Pages**: Homepage, Programs, Contact, Enrollment first
+- **Typography**: Use Khmer Unicode font (Noto Sans Khmer recommended)
+- **Responsive Design**: Test with Khmer text (typically longer character width)
+- **SEO Implementation**: hreflang tags for both languages
+- **URL Structure**: `/en/` and `/km/` prefixes or subdomain strategy
+
+## SEO & Analytics Guidelines (HIGH PRIORITY)
+- **Google Analytics 4**: Implement with comprehensive event tracking
+- **Meta Tags**: Title, description, keywords for all pages
+- **Open Graph**: Social media sharing optimization with proper images
+- **Structured Data**: JSON-LD for education organization and courses
+- **Sitemap**: Auto-generated XML sitemap for better indexing
+- **Image SEO**: Alt tags, descriptive file naming, WebP compression
+- **Page Speed**: Target 90+ Lighthouse performance scores
+- **Mobile-First**: Ensure mobile SEO compliance and usability
+- **Local SEO**: Cambodia/Phnom Penh location optimization
+- **Keyword Strategy**: Cambodian tech education, IT training, STEM, coding bootcamp
+
+## Performance Optimization Guidelines (HIGH PRIORITY)
+- **Core Web Vitals**: LCP < 2.5s, FID < 100ms, CLS < 0.1
+- **Image Optimization**: Next.js Image component with WebP format
+- **Code Splitting**: Dynamic imports for heavy components and pages
+- **Bundle Analysis**: Use @next/bundle-analyzer (now available)
+- **Lazy Loading**: Implement for images and below-the-fold content
+- **Font Optimization**: Use next/font for Google Fonts and Khmer fonts
+- **Static Generation**: Maximize static pages for optimal performance
+- **CDN Optimization**: Prepare for CloudFront deployment with SST
+
 ## Code Quality Standards
 - Always use TypeScript with proper type definitions
 - Follow ESLint rules (configured with Next.js and Prettier)
@@ -27,6 +96,9 @@ Task Management: TaskMaster AI configured
 - Write clean, readable, and maintainable code
 - Add JSDoc comments for complex functions
 - Use meaningful variable and function names
+- **i18n**: Use translation keys instead of hardcoded text
+- **Performance**: Consider bundle size impact of new dependencies
+- **Clean Dependencies**: Avoid unused packages (learned from recent cleanup)
 
 ## Color Theme & Branding
 - **Primary Colors**: Navy Blue (#1e293b) and Orange (#f97316)
@@ -43,6 +115,9 @@ Task Management: TaskMaster AI configured
 - Utilities in `src/lib/` or `src/utils/`
 - Types in `src/types/`
 - Constants in `src/constants/`
+- **i18n**: Translations in `src/data/translations/`
+- **Analytics**: Tracking utilities in `src/lib/analytics.ts`
+- **SST Config**: Infrastructure configuration (when implemented)
 - Follow Next.js App Router conventions
 
 ## Component Guidelines
@@ -57,6 +132,7 @@ Task Management: TaskMaster AI configured
 - Use ShadCN UI's component patterns and prop interfaces
 - Extend ShadCN UI components with custom variants when needed
 - Follow ShadCN UI's composition patterns for complex components
+- **i18n**: Wrap text content with translation hooks from next-intl
 
 ## Styling Guidelines
 - Use ShadCN UI components as the primary UI library
@@ -68,35 +144,44 @@ Task Management: TaskMaster AI configured
 - Prefer ShadCN UI components over custom implementations
 - Use ShadCN UI's built-in variants and styling patterns
 - Leverage ShadCN UI's theming system with CSS variables
+- **i18n**: Consider text length variations in different languages
+- **Performance**: Optimize CSS bundle size and unused styles
 
 ## Landing Page Requirements
 - Modern, clean, and professional design
 - Fully responsive (mobile, tablet, desktop)
-- Fast loading and optimized performance
-- SEO-friendly with proper meta tags
+- Fast loading and optimized performance (target: <2.5s LCP)
+- SEO-friendly with proper meta tags and structured data
 - Accessible (WCAG 2.1 AA compliance)
+- **Multilingual**: Language toggle and localized content
 - Include these sections:
-  - Hero section with CTA
+  - Hero section with compelling CTA
   - Features/benefits section
   - Testimonials/social proof
   - Call-to-action sections
-  - Footer
+  - Comprehensive footer
 
-## Performance & SEO
-- Use Next.js Image component for all images
-- Implement proper metadata and OpenGraph tags
-- Use semantic HTML structure
-- Optimize Core Web Vitals
-- Implement lazy loading where appropriate
+## Performance & SEO (ENHANCED)
+- Use Next.js Image component for all images with optimization
+- Implement proper metadata and OpenGraph tags for all pages
+- Use semantic HTML structure with proper heading hierarchy
+- Optimize Core Web Vitals (target 90+ Lighthouse scores)
+- Implement lazy loading for images and heavy components
 - Use proper heading hierarchy (h1, h2, h3, etc.)
+- **Analytics**: Google Analytics 4 with event tracking and conversion goals
+- **Structured Data**: JSON-LD for organization, courses, and testimonials
+- **Sitemap**: Auto-generated XML sitemap with multilingual support
+- **Hreflang**: Multilingual SEO tags for English/Khmer versions
 
 ## Code Patterns
 - Use custom hooks for reusable logic
 - Implement proper error boundaries
 - Use React.memo() for expensive components
-- Follow React best practices
+- Follow React best practices and patterns
 - Use TypeScript interfaces/types for props
-- Implement proper loading states
+- Implement proper loading states and skeleton UI
+- **i18n**: Create useTranslation hooks for components with next-intl
+- **Analytics**: Track user interactions, conversions, and performance metrics
 
 ## ShadCN UI Guidelines
 - Use ShadCN UI components for all interactive elements (buttons, inputs, cards, etc.)
@@ -107,7 +192,7 @@ Task Management: TaskMaster AI configured
 - Prefer composition over customization when building complex components
 - Use ShadCN UI's accessibility patterns and ARIA implementations
 - Leverage ShadCN UI's responsive design patterns
-- Available components: Button, Card, Badge, Input, Textarea
+- Available components: Button, Card, Badge, Input, Textarea, Checkbox, Dialog, Form, Label, Progress, Radio Group, Select, Separator, Switch, Tabs
 - Add more ShadCN UI components as needed with `npx shadcn@latest add [component]`
 
 ## Import Organization
@@ -115,45 +200,83 @@ Task Management: TaskMaster AI configured
 - Use absolute imports with @ alias (@/components, @/lib, etc.)
 - Sort imports alphabetically within groups
 - Import ShadCN UI components at the top of the UI imports section
+- **i18n**: Import translation functions with React imports
+- **Performance**: Consider tree-shaking impact of imports
+
+## Available Scripts & Tools
+- `npm run dev` - Development server
+- `npm run build` - Production build
+- `npm run export` - Static export
+- `npm run lint` - ESLint checking
+- `npm run type-check` - TypeScript validation
+- `npm run format` - Prettier formatting
+- `npm run analyze` - Bundle size analysis
+- `npm run lighthouse` - Performance auditing
 
 ## Git & Development
-- Write clear commit messages
-- Update TaskMaster AI config when completing tasks
+- Write clear, descriptive commit messages
+- Update TaskMaster AI status when completing tasks
 - Test components before committing
 - Ensure all linting passes before commits
+- **Performance**: Run Lighthouse audits before major commits
+- **i18n**: Test both language versions before committing
+- **Bundle Analysis**: Check bundle size impact of changes
 
 ## TaskMaster AI Integration
-- Update task status in taskmaster.config.json when completing work
-- Break down complex features into smaller tasks
-- Document task completion with timestamp
-- Follow the task dependency chain
+- Update task status in tasks.json when completing work
+- Break down complex features into smaller, manageable tasks
+- Document task completion with timestamp and details
+- Follow the task dependency chain properly
+- **Priority Focus**: Complete high-priority tasks first (i18n, SEO, performance, SST deployment)
 
 ## Error Handling
-- Implement proper error boundaries
-- Handle loading and error states in components
+- Implement proper error boundaries for React components
+- Handle loading and error states in all components
 - Use TypeScript for compile-time error prevention
-- Add proper error logging
+- Add proper error logging and monitoring
+- **i18n**: Ensure error messages are properly translated
+- **Analytics**: Track errors and user experience issues
+- **Performance**: Monitor and handle performance-related errors
 
 ## Security
-- Sanitize user inputs
+- Sanitize all user inputs properly
 - Use environment variables for sensitive data
 - Follow Next.js security best practices
 - Implement proper CSP headers
+- **Analytics**: Ensure GDPR compliance with cookie consent
+- **i18n**: Security considerations for multilingual content
 
-## Testing (when implemented)
-- Write unit tests for utilities
+## Testing (Future Implementation)
+- Write unit tests for utilities and complex logic
 - Test components with React Testing Library
-- Implement integration tests for critical paths
-- Maintain good test coverage
+- Implement integration tests for critical user paths
+- Maintain good test coverage (target: 80%+)
+- **i18n**: Test both language versions thoroughly
+- **Performance**: Include performance regression testing
+
+## Deployment & Production (SST APPROACH)
+- **Target Platform**: AWS S3 static hosting with CloudFront CDN
+- **Deployment Tool**: SST (Serverless Stack) for Infrastructure as Code
+- **CI/CD**: GitHub Actions integrated with SST deployment
+- **Domain Management**: Custom domain with SSL certificates via SST
+- **Environment Management**: Separate dev/staging/prod environments
+- **Monitoring**: Performance and error monitoring integration
+- **Backup**: Automated backups and disaster recovery
+- **Scaling**: CloudFront CDN for global content delivery
 
 ## AI Assistant Guidelines
 - Always check existing code patterns before creating new ones
 - Maintain consistency with established conventions
 - Ask for clarification if requirements are unclear
 - Update documentation when making structural changes
-- Consider performance implications of code changes
+- Consider performance implications of all code changes
 - Follow the established file naming conventions
 - Prioritize ShadCN UI components over custom implementations
 - Use ShadCN UI's design system and theming consistently
 - Ensure proper accessibility with ShadCN UI's built-in patterns
-- **CRITICAL**: Always use Khmer/Cambodian faces in all images and maintain cultural authenticity 
+- **CRITICAL**: Always use Khmer/Cambodian faces in all images and maintain cultural authenticity
+- **PRIORITY**: Focus on high-priority tasks for production readiness
+- **i18n**: Always consider multilingual support in new features and components
+- **Performance**: Optimize for Core Web Vitals and mobile experience
+- **SEO**: Implement proper metadata and structured data for new pages
+- **Clean Code**: Avoid adding unnecessary dependencies (learned from recent cleanup) 
