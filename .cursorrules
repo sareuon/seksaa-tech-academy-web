@@ -203,24 +203,34 @@ Task Management: TaskMaster AI configured (v0.17.0)
 - **i18n**: Import translation functions with React imports
 - **Performance**: Consider tree-shaking impact of imports
 
+## Package Management
+- **Package Manager**: Yarn (with yarn.lock)
+- **Installation**: Use `yarn install` for dependencies
+- **Adding Packages**: Use `yarn add <package>` for dependencies
+- **Adding Dev Packages**: Use `yarn add -D <package>` for dev dependencies
+- **Security Audits**: Use `yarn audit` to check for vulnerabilities
+- **Clean Dependencies**: Avoid unused packages (learned from recent cleanup)
+- **Bundle Impact**: Always consider bundle size when adding new packages
+
 ## Available Scripts & Tools
-- `npm run dev` - Development server
-- `npm run build` - Production build
-- `npm run export` - Static export
-- `npm run lint` - ESLint checking
-- `npm run type-check` - TypeScript validation
-- `npm run format` - Prettier formatting
-- `npm run analyze` - Bundle size analysis
-- `npm run lighthouse` - Performance auditing
+- `yarn dev` - Development server
+- `yarn build` - Production build
+- `yarn export` - Static export
+- `yarn lint` - ESLint checking
+- `yarn type-check` - TypeScript validation
+- `yarn format` - Prettier formatting
+- `yarn analyze` - Bundle size analysis
+- `yarn lighthouse` - Performance auditing
 
 ## Git & Development
 - Write clear, descriptive commit messages
 - Update TaskMaster AI status when completing tasks
 - Test components before committing
-- Ensure all linting passes before commits
-- **Performance**: Run Lighthouse audits before major commits
+- Ensure all linting passes before commits (`yarn lint`)
+- **Performance**: Run Lighthouse audits before major commits (`yarn lighthouse`)
 - **i18n**: Test both language versions before committing
-- **Bundle Analysis**: Check bundle size impact of changes
+- **Bundle Analysis**: Check bundle size impact of changes (`yarn analyze`)
+- **Package Manager**: Use Yarn for all dependency management
 
 ## TaskMaster AI Integration
 - Update task status in tasks.json when completing work

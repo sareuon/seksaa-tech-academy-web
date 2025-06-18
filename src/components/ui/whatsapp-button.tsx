@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { getWhatsAppUrl } from '@/lib/config'
 import { MessageCircle } from 'lucide-react'
+import { useState, useEffect } from 'react'
 
 interface WhatsAppButtonProps {
   message?: string
@@ -19,12 +20,23 @@ export function WhatsAppButton({
   className = '',
   children
 }: WhatsAppButtonProps) {
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
+
   const handleWhatsAppClick = () => {
     const url = getWhatsAppUrl(message)
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 
   if (variant === 'floating') {
+    // Don't render the floating button on the server side to prevent hydration mismatch
+    if (!isMounted) {
+      return null
+    }
+
     return (
       <button
         onClick={handleWhatsAppClick}

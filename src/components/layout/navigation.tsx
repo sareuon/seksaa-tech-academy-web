@@ -2,19 +2,25 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useLocale, useTranslations } from 'next-intl'
 import { Button } from '@/components/ui/button'
+import { LanguageSwitcher } from './language-switcher'
 import { Menu, X, ChevronDown } from 'lucide-react'
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [programsOpen, setProgramsOpen] = useState(false)
+  const locale = useLocale()
+  const t = useTranslations('nav')
+
+  const localizedPath = (path: string) => `/${locale}${path}` as any
 
   return (
     <nav className="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href={localizedPath('/')} className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-brand-500 to-brand-700 rounded-lg flex items-center justify-center shadow-lg">
               <span className="text-white font-bold text-sm">ST</span>
             </div>
@@ -23,8 +29,8 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Home
+            <Link href={localizedPath('/')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('home')}
             </Link>
             
             {/* Programs Dropdown */}
@@ -34,7 +40,7 @@ export function Navigation() {
                 onMouseEnter={() => setProgramsOpen(true)}
                 onMouseLeave={() => setProgramsOpen(false)}
               >
-                Programs
+                {t('programs')}
                 <ChevronDown className="h-4 w-4" />
               </button>
               
@@ -44,49 +50,50 @@ export function Navigation() {
                   onMouseEnter={() => setProgramsOpen(true)}
                   onMouseLeave={() => setProgramsOpen(false)}
                 >
-                  <Link href="/programs" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
-                    All Programs
+                  <Link href={localizedPath('/programs')} className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
+                    All {t('programs')}
                   </Link>
                   <div className="border-t border-gray-100 my-2"></div>
-                  <Link href="/programs" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
+                  <Link href={localizedPath('/programs/ai-machine-learning')} className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
                     🤖 AI & Machine Learning
                   </Link>
-                  <Link href="/programs" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
+                  <Link href={localizedPath('/programs/data-engineering')} className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
                     📊 Data Engineering
                   </Link>
-                  <Link href="/programs" className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
+                  <Link href={localizedPath('/programs/web-development')} className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-brand-600">
                     💻 Web Development
                   </Link>
                 </div>
               )}
             </div>
 
-            <Link href="/schedule" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Schedule
+            <Link href={localizedPath('/schedule')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('schedule')}
             </Link>
             
-            <Link href="/instructors" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Instructors
+            <Link href={localizedPath('/instructors')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('instructors')}
             </Link>
             
-            <Link href="/success-stories" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Success Stories
+            <Link href={localizedPath('/success-stories')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('success_stories')}
             </Link>
             
-            <Link href="/blog" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Blog
+            <Link href={localizedPath('/blog')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('blog')}
             </Link>
             
-            <Link href="/contact" className="text-gray-700 hover:text-brand-600 transition-colors">
-              Contact
+            <Link href={localizedPath('/contact')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('contact')}
             </Link>
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Button and Language Switcher */}
           <div className="hidden md:flex items-center gap-4">
-            <Link href="/enroll">
+            <LanguageSwitcher />
+            <Link href={localizedPath('/enroll')}>
               <Button className="bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white">
-                Enroll Now
+                {t('enroll')}
               </Button>
             </Link>
           </div>
@@ -105,38 +112,38 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
               <Link 
-                href="/" 
+                href={localizedPath('/')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Home
+                {t('home')}
               </Link>
               
               <div className="space-y-2">
                 <Link 
-                  href="/programs" 
+                  href={localizedPath('/programs')} 
                   className="text-gray-700 hover:text-brand-600 transition-colors font-medium"
                   onClick={() => setIsOpen(false)}
                 >
-                  Programs
+                  {t('programs')}
                 </Link>
                 <div className="pl-4 space-y-2">
                   <Link 
-                    href="/programs" 
+                    href={localizedPath('/programs/ai-machine-learning')} 
                     className="block text-gray-600 hover:text-brand-600 transition-colors text-sm"
                     onClick={() => setIsOpen(false)}
                   >
                     🤖 AI & Machine Learning
                   </Link>
                   <Link 
-                    href="/programs" 
+                    href={localizedPath('/programs/data-engineering')} 
                     className="block text-gray-600 hover:text-brand-600 transition-colors text-sm"
                     onClick={() => setIsOpen(false)}
                   >
                     📊 Data Engineering
                   </Link>
                   <Link 
-                    href="/programs" 
+                    href={localizedPath('/programs/web-development')} 
                     className="block text-gray-600 hover:text-brand-600 transition-colors text-sm"
                     onClick={() => setIsOpen(false)}
                   >
@@ -146,49 +153,50 @@ export function Navigation() {
               </div>
               
               <Link 
-                href="/schedule" 
+                href={localizedPath('/schedule')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Schedule
+                {t('schedule')}
               </Link>
               
               <Link 
-                href="/instructors" 
+                href={localizedPath('/instructors')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Instructors
+                {t('instructors')}
               </Link>
               
               <Link 
-                href="/success-stories" 
+                href={localizedPath('/success-stories')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Success Stories
+                {t('success_stories')}
               </Link>
               
               <Link 
-                href="/blog" 
+                href={localizedPath('/blog')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Blog
+                {t('blog')}
               </Link>
               
               <Link 
-                href="/contact" 
+                href={localizedPath('/contact')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Contact
+                {t('contact')}
               </Link>
               
-              <div className="pt-4 border-t border-gray-200">
-                <Link href="/enroll" onClick={() => setIsOpen(false)}>
+              <div className="pt-4 border-t border-gray-200 space-y-3">
+                <LanguageSwitcher />
+                <Link href={localizedPath('/enroll')} onClick={() => setIsOpen(false)}>
                   <Button className="w-full bg-gradient-to-r from-brand-600 to-brand-700 hover:from-brand-700 hover:to-brand-800 text-white">
-                    Enroll Now
+                    {t('enroll')}
                   </Button>
                 </Link>
               </div>

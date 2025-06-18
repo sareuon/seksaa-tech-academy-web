@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "programs": "Programs",
+    "schedule": "Schedule",
+    "instructors": "Instructors",
+    "gallery": "Gallery",
+    "success_stories": "Success Stories",
+    "contact": "Contact",
+    "blog": "Blog",
+    "admin": "Admin",
+    "enroll": "Enroll Now",
+    "language": "Language"
+  },
+  "common": {
+    "learn_more": "Learn More",
+    "get_started": "Get Started",
+    "contact_us": "Contact Us",
+    "read_more": "Read More",
+    "view_all": "View All",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "download": "Download",
+    "share": "Share"
+  },
+  "hero": {
+    "title": "Transform Your Future with Technology",
+    "subtitle": "Join Cambodia's premier tech academy and master the skills that matter in today's digital world",
+    "cta_primary": "Start Your Journey",
+    "cta_secondary": "Explore Programs"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Choose from our comprehensive tech education programs designed for the Cambodian market",
+    "web_development": "Web Development",
+    "ai_machine_learning": "AI & Machine Learning",
+    "data_engineering": "Data Engineering",
+    "duration": "Duration",
+    "level": "Level",
+    "format": "Format",
+    "price": "Price",
+    "enroll_now": "Enroll Now"
+  },
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Hear from our graduates who are now thriving in the tech industry"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to start your tech journey? Contact us today",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Message",
+    "send_message": "Send Message",
+    "address": "Address",
+    "phone_number": "Phone",
+    "email_address": "Email",
+    "office_hours": "Office Hours"
+  },
+  "footer": {
+    "about": "About Seksaa Tech Academy",
+    "quick_links": "Quick Links",
+    "programs_offered": "Programs",
+    "contact_info": "Contact Info",
+    "follow_us": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletter_text": "Subscribe to get updates on new programs and tech insights",
+    "subscribe": "Subscribe",
+    "copyright": "© 2024 Seksaa Tech Academy. All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "cookies_policy": "Cookies Policy"
+  },
+  "enrollment": {
+    "title": "Enroll in Program",
+    "personal_info": "Personal Information",
+    "program_selection": "Program Selection",
+    "payment_plan": "Payment Plan",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "date_of_birth": "Date of Birth",
+    "education_level": "Education Level",
+    "experience": "Previous Experience",
+    "goals": "Learning Goals",
+    "payment_full": "Full Payment",
+    "payment_installment": "Installment Plan",
+    "terms_agreement": "I agree to the terms and conditions",
+    "submit_enrollment": "Submit Enrollment"
+  }
+} 

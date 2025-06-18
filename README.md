@@ -162,19 +162,19 @@
 
 ```bash
 # Install dependencies
-npm install
+yarn install
 
 # Set up environment variables
 cp .env.example .env.local
 
 # Run development server
-npm run dev
+yarn dev
 
 # View tasks
-npx task-master-ai list
+yarn task-master-ai list
 
 # Get next task
-npx task-master-ai next
+yarn task-master-ai next
 ```
 
 ---

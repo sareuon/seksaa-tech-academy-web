@@ -28,29 +28,29 @@ declare namespace __next_route_internal_types__ {
   type OptionalCatchAllSlug<S extends string> =
     S extends `${string}${SearchOrHash}` ? never : S
 
-  type StaticRoutes = 
-    | `/admin`
-    | `/admin/students`
-    | `/blog`
-    | `/contact`
-    | `/enroll`
-    | `/`
-    | `/instructors`
-    | `/programs`
-    | `/schedule/booking-confirmation`
-    | `/schedule`
-    | `/success-stories`
-    | `/cookies`
-    | `/code-of-conduct`
-    | `/security`
-    | `/gallery`
-    | `/privacy`
-    | `/terms`
+  type StaticRoutes = never
   type DynamicRoutes<T extends string = string> = 
-    | `/instructors/${SafeSlug<T>}`
-    | `/enroll/${SafeSlug<T>}`
-    | `/success-stories/${SafeSlug<T>}`
-    | `/programs/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/schedule`
+    | `/${SafeSlug<T>}/schedule/booking-confirmation`
+    | `/${SafeSlug<T>}/contact`
+    | `/${SafeSlug<T>}/privacy`
+    | `/${SafeSlug<T>}/security`
+    | `/${SafeSlug<T>}/gallery`
+    | `/${SafeSlug<T>}/terms`
+    | `/${SafeSlug<T>}/blog`
+    | `/${SafeSlug<T>}/cookies`
+    | `/${SafeSlug<T>}/code-of-conduct`
+    | `/${SafeSlug<T>}/programs`
+    | `/${SafeSlug<T>}/programs/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/instructors`
+    | `/${SafeSlug<T>}/instructors/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/success-stories`
+    | `/${SafeSlug<T>}/success-stories/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/enroll`
+    | `/${SafeSlug<T>}/enroll/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/admin`
+    | `/${SafeSlug<T>}/admin/students`
 
   type RouteImpl<T> = 
     | StaticRoutes

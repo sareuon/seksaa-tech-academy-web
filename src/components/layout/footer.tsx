@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { useLocale, useTranslations } from 'next-intl'
 import { Button } from '@/components/ui/button'
 import { NewsletterSignup } from '@/components/forms/newsletter-signup'
 import { 
@@ -22,78 +23,82 @@ import { SITE_CONFIG } from '@/constants'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
+  const locale = useLocale()
+  const t = useTranslations()
+  
+  const localizedPath = (path: string) => `/${locale}${path}` as any
 
   return (
-    <footer className="bg-navy-900 text-white">
+    <footer className="bg-gradient-to-b from-slate-900 to-navy-900 text-white">
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           
           {/* Company Info & Newsletter */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-sm">ST</span>
+              <div className="w-12 h-12 bg-gradient-to-br from-brand-500 to-brand-700 rounded-xl flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-lg">ST</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Seksaa Tech</h3>
-                <p className="text-sm text-gray-300">Transform Your Career</p>
+                <h3 className="text-xl font-bold">Seksaa Tech</h3>
+                <p className="text-sm text-orange-400">Academy</p>
               </div>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Cambodia's premier tech academy empowering the next generation of tech professionals through cutting-edge education and hands-on training.
+              {t('footer.about')}
             </p>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <div className="text-center p-3 bg-navy-800 rounded-lg">
-                <div className="text-2xl font-bold text-orange-400">100%</div>
-                <div className="text-xs text-gray-300">Job Placement</div>
-              </div>
-              <div className="text-center p-3 bg-navy-800 rounded-lg">
-                <div className="text-2xl font-bold text-orange-400">200+</div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="bg-navy-800 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-orange-400">500+</div>
                 <div className="text-xs text-gray-300">Graduates</div>
+              </div>
+              <div className="bg-navy-800 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-orange-400">95%</div>
+                <div className="text-xs text-gray-300">Job Placement</div>
               </div>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-white">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">{t('footer.quick_links')}</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/#programs" className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
+                <Link href={localizedPath('/programs')} className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
                   <GraduationCap className="h-4 w-4" />
-                  Programs
+                  {t('nav.programs')}
                 </Link>
               </li>
               <li>
-                <Link href="/#instructors" className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
+                <Link href={localizedPath('/instructors')} className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
                   <Users className="h-4 w-4" />
-                  Instructors
+                  {t('nav.instructors')}
                 </Link>
               </li>
               <li>
-                <Link href="/#success-stories" className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
+                <Link href={localizedPath('/success-stories')} className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
                   <Award className="h-4 w-4" />
-                  Success Stories
+                  {t('nav.success_stories')}
                 </Link>
               </li>
               <li>
-                <Link href="/schedule" className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
+                <Link href={localizedPath('/schedule')} className="text-gray-300 hover:text-orange-400 transition-colors flex items-center gap-2">
                   <Clock className="h-4 w-4" />
-                  Schedule
+                  {t('nav.schedule')}
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-gray-300 hover:text-orange-400 transition-colors">
-                  Gallery
+                <Link href={localizedPath('/gallery')} className="text-gray-300 hover:text-orange-400 transition-colors">
+                  {t('nav.gallery')}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-300 hover:text-orange-400 transition-colors">
-                  Blog
+                <Link href={localizedPath('/blog')} className="text-gray-300 hover:text-orange-400 transition-colors">
+                  {t('nav.blog')}
                 </Link>
               </li>
             </ul>
@@ -101,7 +106,7 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-white">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">{t('footer.contact_info')}</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-orange-400 mt-0.5 flex-shrink-0" />
@@ -126,7 +131,7 @@ export function Footer() {
 
             {/* Office Hours */}
             <div className="mt-6 p-4 bg-navy-800 rounded-lg">
-              <h5 className="font-semibold text-white mb-2">Office Hours</h5>
+              <h5 className="font-semibold text-white mb-2">{t('contact.office_hours')}</h5>
               <div className="text-sm text-gray-300 space-y-1">
                 <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
                 <p>Sat: 9:00 AM - 4:00 PM</p>
@@ -137,14 +142,14 @@ export function Footer() {
 
           {/* Newsletter & Social */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-white">Stay Connected</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">{t('footer.follow_us')}</h4>
             
             {/* Newsletter Signup */}
             <div className="mb-6">
               <NewsletterSignup 
                 variant="inline"
-                title="Newsletter"
-                description="Get updates on programs and tech trends"
+                title={t('footer.newsletter')}
+                description={t('footer.newsletter_text')}
                 showProgramInterests={false}
                 showNameField={false}
                 className="text-white"
@@ -153,7 +158,7 @@ export function Footer() {
 
             {/* Social Media Links */}
             <div>
-              <h5 className="font-semibold text-white mb-3">Follow Us</h5>
+              <h5 className="font-semibold text-white mb-3">{t('footer.follow_us')}</h5>
               <div className="flex gap-3">
                 <a 
                   href="https://facebook.com/seksaatech" 
@@ -196,9 +201,9 @@ export function Footer() {
 
             {/* CTA Button */}
             <div className="mt-6">
-              <Link href="/contact">
+              <Link href={localizedPath('/contact')}>
                 <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold">
-                  Get Started Today
+                  {t('common.get_started')}
                   <ExternalLink className="h-4 w-4 ml-2" />
                 </Button>
               </Link>
@@ -215,7 +220,7 @@ export function Footer() {
             {/* Copyright */}
             <div className="text-center md:text-left">
               <p className="text-gray-300 text-sm">
-                © {currentYear} {SITE_CONFIG.name}. All rights reserved.
+                {t('footer.copyright')}
               </p>
               <p className="text-gray-400 text-xs mt-1">
                 Empowering Cambodia's tech future since 2019
@@ -224,19 +229,19 @@ export function Footer() {
 
             {/* Legal Links */}
             <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <Link href="/privacy" className="text-gray-300 hover:text-orange-400 transition-colors">
-                Privacy Policy
+              <Link href={localizedPath('/privacy')} className="text-gray-300 hover:text-orange-400 transition-colors">
+                {t('footer.privacy_policy')}
               </Link>
-              <Link href="/terms" className="text-gray-300 hover:text-orange-400 transition-colors">
-                Terms of Service
+              <Link href={localizedPath('/terms')} className="text-gray-300 hover:text-orange-400 transition-colors">
+                {t('footer.terms_of_service')}
               </Link>
-              <Link href="/cookies" className="text-gray-300 hover:text-orange-400 transition-colors">
-                Cookie Policy
+              <Link href={localizedPath('/cookies')} className="text-gray-300 hover:text-orange-400 transition-colors">
+                {t('footer.cookies_policy')}
               </Link>
-              <Link href="/code-of-conduct" className="text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href={localizedPath('/code-of-conduct')} className="text-gray-300 hover:text-orange-400 transition-colors">
                 Code of Conduct
               </Link>
-              <Link href="/security" className="text-gray-300 hover:text-orange-400 transition-colors">
+              <Link href={localizedPath('/security')} className="text-gray-300 hover:text-orange-400 transition-colors">
                 Security
               </Link>
             </div>

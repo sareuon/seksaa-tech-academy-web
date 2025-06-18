@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://seksaatech.com/en</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km"/>
+  </url>
+
+  <!-- Programs -->
+  <url>
+    <loc>https://seksaatech.com/en/programs</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/programs</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs"/>
+  </url>
+
+  <!-- Individual Programs -->
+  <url>
+    <loc>https://seksaatech.com/en/programs/web-development</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/web-development"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/web-development"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/programs/web-development</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/web-development"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/web-development"/>
+  </url>
+
+  <url>
+    <loc>https://seksaatech.com/en/programs/data-engineering</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/data-engineering"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/data-engineering"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/programs/data-engineering</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/data-engineering"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/data-engineering"/>
+  </url>
+
+  <url>
+    <loc>https://seksaatech.com/en/programs/ai-machine-learning</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/ai-machine-learning"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/ai-machine-learning"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/programs/ai-machine-learning</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/programs/ai-machine-learning"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/programs/ai-machine-learning"/>
+  </url>
+
+  <!-- Enrollment -->
+  <url>
+    <loc>https://seksaatech.com/en/enroll</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/enroll"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/enroll"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/enroll</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/enroll"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/enroll"/>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://seksaatech.com/en/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/contact"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/contact</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/contact"/>
+  </url>
+
+  <!-- Instructors -->
+  <url>
+    <loc>https://seksaatech.com/en/instructors</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/instructors"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/instructors"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/instructors</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/instructors"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/instructors"/>
+  </url>
+
+  <!-- Schedule -->
+  <url>
+    <loc>https://seksaatech.com/en/schedule</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/schedule"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/schedule"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/schedule</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/schedule"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/schedule"/>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://seksaatech.com/en/gallery</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/gallery"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/gallery"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/gallery</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/gallery"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/gallery"/>
+  </url>
+
+  <!-- Success Stories -->
+  <url>
+    <loc>https://seksaatech.com/en/success-stories</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/success-stories"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/success-stories"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/success-stories</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/success-stories"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/success-stories"/>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://seksaatech.com/en/blog</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/blog"/>
+  </url>
+  
+  <url>
+    <loc>https://seksaatech.com/km/blog</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seksaatech.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="km" href="https://seksaatech.com/km/blog"/>
+  </url>
+
+</urlset> 

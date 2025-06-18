@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useLocale, useTranslations } from 'next-intl'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -10,11 +11,16 @@ interface HeaderProps {
 }
 
 export function Header({ className }: HeaderProps) {
+  const locale = useLocale()
+  const t = useTranslations('nav')
+  
+  const localizedPath = (path: string) => `/${locale}${path}` as any
+
   return (
     <header className={cn("sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60", className)}>
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-3">
+        <Link href={localizedPath('/')} className="flex items-center space-x-3">
           <div className="relative h-12 w-12">
             <Image
               src="/images/logo.svg"
@@ -32,33 +38,33 @@ export function Header({ className }: HeaderProps) {
 
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link href="/#programs" className="nav-link text-sm font-medium">
-            Programs
+          <Link href={localizedPath('/programs')} className="nav-link text-sm font-medium">
+            {t('programs')}
           </Link>
-          <Link href="/#instructors" className="nav-link text-sm font-medium">
-            Instructors
+          <Link href={localizedPath('/instructors')} className="nav-link text-sm font-medium">
+            {t('instructors')}
           </Link>
-          <Link href="/#success-stories" className="nav-link text-sm font-medium">
-            Success Stories
+          <Link href={localizedPath('/success-stories')} className="nav-link text-sm font-medium">
+            {t('success_stories')}
           </Link>
-          <Link href="/#schedule" className="nav-link text-sm font-medium">
-            Schedule
+          <Link href={localizedPath('/schedule')} className="nav-link text-sm font-medium">
+            {t('schedule')}
           </Link>
-          <Link href="/#blog" className="nav-link text-sm font-medium">
-            Blog
+          <Link href={localizedPath('/blog')} className="nav-link text-sm font-medium">
+            {t('blog')}
           </Link>
-          <Link href="/#contact" className="nav-link text-sm font-medium">
-            Contact
+          <Link href={localizedPath('/contact')} className="nav-link text-sm font-medium">
+            {t('contact')}
           </Link>
         </nav>
 
         {/* CTA Buttons */}
         <div className="flex items-center space-x-3">
-          <Link href="/#contact" className="btn-secondary-enhanced hidden sm:inline-flex">
+          <Link href={localizedPath('/contact')} className="btn-secondary-enhanced hidden sm:inline-flex">
             Get Info
           </Link>
-          <Link href="/#enroll" className="btn-primary-enhanced glow-on-hover">
-            Enroll Now
+          <Link href={localizedPath('/enroll')} className="btn-primary-enhanced glow-on-hover">
+            {t('enroll')}
           </Link>
         </div>
       </div>
