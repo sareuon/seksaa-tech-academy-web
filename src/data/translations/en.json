@@ -8,9 +8,12 @@
     "success_stories": "Success Stories",
     "contact": "Contact",
     "blog": "Blog",
+    "faq": "FAQ",
     "admin": "Admin",
+    "student": "Student Portal",
     "enroll": "Enroll Now",
-    "language": "Language"
+    "language": "Language",
+    "events": "Events"
   },
   "common": {
     "learn_more": "Learn More",
@@ -30,13 +33,94 @@
     "search": "Search",
     "filter": "Filter",
     "download": "Download",
-    "share": "Share"
+    "share": "Share",
+    "get_info": "Get Info",
+    "explore": "Explore",
+    "discover": "Discover"
   },
   "hero": {
-    "title": "Transform Your Future with Technology",
-    "subtitle": "Join Cambodia's premier tech academy and master the skills that matter in today's digital world",
-    "cta_primary": "Start Your Journey",
-    "cta_secondary": "Explore Programs"
+    "title": "Seksaa Tech Academy Reaches the Pinnacle of",
+    "title_highlight": "Tech Education Excellence",
+    "subtitle": "The leading tech academy in Cambodia is now recognized among the region's top-tier institutions—driving innovation, discovery and opportunity for Southeast Asia and beyond.",
+    "subtitle_highlight": "top-tier institutions",
+    "cta_primary": "DISCOVER PROGRAMS AT SEKSAA TECH",
+    "cta_secondary": "Explore Programs",
+    "scroll_indicator": "Scroll to explore",
+    "stats": {
+      "job_placement": "Job Placement",
+      "graduates": "Graduates",
+      "years_excellence": "Years Excellence"
+    }
+  },
+  "homepage": {
+    "main_heading": "Study at the",
+    "main_heading_highlight": "Seksaa Tech Academy",
+    "main_subtitle": "Choose your path to success with our comprehensive tech education programs designed for the modern digital economy.",
+    "beginner": {
+      "title": "Beginner",
+      "heading": "Start Your Tech Journey",
+      "description": "Perfect for those new to technology. Our comprehensive beginner programs cover programming fundamentals, web development basics, and essential digital skills. No prior experience required.",
+      "note": "Interested in flexible learning? Check out our part-time evening and weekend programs!",
+      "cta": "Explore Beginner Programs",
+      "resources_title": "Student Resources",
+      "resources": [
+        "Coding Fundamentals",
+        "Career Guidance", 
+        "Mentorship Program",
+        "Industry Certifications"
+      ]
+    },
+    "advanced": {
+      "title": "Advanced",
+      "heading": "Professional Development",
+      "description": "Take your skills to the next level with advanced programs in AI, Data Science, DevOps, and specialized frameworks. Perfect for professionals looking to upskill or transition careers.",
+      "note": "Want to specialize? Our advanced tracks include AI, blockchain, and cloud computing!",
+      "cta": "Find Advanced Programs",
+      "resources_title": "Student Resources",
+      "resources": [
+        "Industry Projects",
+        "Job Placement Support",
+        "Professional Network",
+        "Continuing Education"
+      ]
+    },
+    "corporate": {
+      "title": "Corporate",
+      "heading": "Corporate Training",
+      "description": "Customized training solutions for businesses and organizations. We work with companies to upskill their teams with cutting-edge technology training tailored to their specific industry needs.",
+      "note": "Need team training? We offer on-site and remote corporate training programs!",
+      "cta": "Learn About Corporate Training",
+      "resources_title": "Corporate Benefits",
+      "resources": [
+        "Custom Curriculum",
+        "Flexible Scheduling",
+        "Team Building",
+        "Performance Tracking"
+      ]
+    },
+    "virtual_tour": {
+      "title": "Virtual Campus Tour",
+      "subtitle": "Experience our state-of-the-art facilities",
+      "description": "Take a virtual tour of our modern campus featuring cutting-edge technology labs, collaborative learning spaces, and industry-standard equipment.",
+      "cta": "Start Virtual Tour"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "subtitle": "Hear from our graduates who are now thriving in the tech industry",
+      "view_all": "View All Success Stories"
+    },
+    "stats": {
+      "title": "Our Impact",
+      "job_placement_rate": "Job Placement Rate",
+      "average_salary": "Average Starting Salary",
+      "total_graduates": "Total Graduates",
+      "partner_companies": "Partner Companies"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest news about our programs and tech industry insights",
+      "cta": "Subscribe Now"
+    }
   },
   "programs": {
     "title": "Our Programs",
@@ -48,7 +132,69 @@
     "level": "Level",
     "format": "Format",
     "price": "Price",
-    "enroll_now": "Enroll Now"
+    "enroll_now": "Enroll Now",
+    "view_details": "View Details",
+    "prerequisites": "Prerequisites",
+    "career_outcomes": "Career Outcomes",
+    "syllabus": "Syllabus",
+    "instructor": "Instructor",
+    "schedule": "Schedule",
+    "payment_plans": "Payment Plans"
+  },
+  "schedule": {
+    "title": "Class Schedule",
+    "subtitle": "Find the perfect time for your tech education journey",
+    "book_trial": "Book Trial Class",
+    "book_consultation": "Book Consultation",
+    "class_formats": "Class Formats",
+    "online": "Online",
+    "in_person": "In-Person",
+    "hybrid": "Hybrid",
+    "filter_by": "Filter By",
+    "all_programs": "All Programs",
+    "all_instructors": "All Instructors",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "weekend": "Weekend"
+  },
+  "instructors": {
+    "title": "Our Instructors",
+    "subtitle": "Learn from industry experts with real-world experience",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "contact_instructor": "Contact Instructor",
+    "view_profile": "View Profile",
+    "teaches": "Teaches",
+    "specializes_in": "Specializes In"
+  },
+  "success_stories": {
+    "title": "Student Success Stories",
+    "subtitle": "Discover how our graduates have transformed their careers",
+    "career_change": "Career Change",
+    "current_role": "Current Role",
+    "previous_role": "Previous Role",
+    "salary_increase": "Salary Increase",
+    "graduation_year": "Graduation Year",
+    "program_completed": "Program Completed",
+    "read_story": "Read Full Story",
+    "portfolio": "View Portfolio"
+  },
+  "gallery": {
+    "title": "Campus Life",
+    "subtitle": "See our students in action and explore our facilities",
+    "categories": {
+      "all": "All",
+      "classroom": "Classroom",
+      "labs": "Labs",
+      "events": "Events",
+      "projects": "Projects",
+      "graduation": "Graduation"
+    },
+    "student_projects": "Student Projects",
+    "activities": "Activities"
   },
   "testimonials": {
     "title": "Success Stories",
@@ -61,11 +207,144 @@
     "email": "Email Address",
     "phone": "Phone Number",
     "message": "Message",
+    "program_interest": "Program of Interest",
     "send_message": "Send Message",
     "address": "Address",
     "phone_number": "Phone",
     "email_address": "Email",
-    "office_hours": "Office Hours"
+    "office_hours": "Office Hours",
+    "location": "Location",
+    "quick_actions": "Quick Actions",
+    "schedule_consultation": "Schedule Consultation",
+    "download_brochure": "Download Brochure",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "general": "General",
+      "programs": "Programs",
+      "enrollment": "Enrollment",
+      "payment": "Payment"
+    }
+  },
+  "enrollment": {
+    "title": "Enroll in Program",
+    "subtitle": "Take the first step towards your tech career",
+    "personal_info": "Personal Information",
+    "program_selection": "Program Selection",
+    "payment_plan": "Payment Plan",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "date_of_birth": "Date of Birth",
+    "education_level": "Education Level",
+    "experience": "Previous Experience",
+    "goals": "Learning Goals",
+    "payment_full": "Full Payment",
+    "payment_installment": "Installment Plan",
+    "scholarship": "Scholarship Information",
+    "terms_agreement": "I agree to the terms and conditions",
+    "submit_enrollment": "Submit Enrollment",
+    "confirmation": "Enrollment Confirmation",
+    "next_steps": "Next Steps"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "overview": "Overview",
+    "students": "Students",
+    "courses": "Courses",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "total_students": "Total Students",
+    "active_courses": "Active Courses",
+    "pending_enrollments": "Pending Enrollments",
+    "revenue": "Revenue",
+    "student_management": "Student Management",
+    "course_management": "Course Management",
+    "view_details": "View Details",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "blog": {
+    "meta": {
+      "title": "Tech Blog & Resources - Seksaa Tech Academy",
+      "description": "Stay updated with the latest technology trends, career guidance, and educational insights from industry experts.",
+      "keywords": "tech blog, programming tutorials, career advice, technology trends, Cambodia tech"
+    },
+    "hero": {
+      "title": "Tech Blog & Resources",
+      "subtitle": "Insights, tutorials, and career guidance for aspiring tech professionals",
+      "topics": {
+        "tech": "Technology Trends",
+        "career": "Career Guidance", 
+        "education": "Educational Insights",
+        "tutorials": "Tutorials & Guides"
+      }
+    },
+    "searchPlaceholder": "Search articles, topics, or authors...",
+    "filters": "Filters",
+    "clearFilters": "Clear All",
+    "search": "Search",
+    "category": "Category",
+    "tag": "Tag",
+    "categories": {
+      "title": "Categories",
+      "technology": "Technology",
+      "career": "Career",
+      "education": "Education",
+      "tutorial": "Tutorial"
+    },
+    "tags": {
+      "title": "Tags"
+    },
+    "featured": {
+      "title": "Featured Articles"
+    },
+    "latest": {
+      "title": "Latest Articles"
+    },
+    "totalPosts": "Showing {count} articles",
+    "filteredResults": "Found {count} articles",
+    "noResults": {
+      "title": "No articles found",
+      "description": "Try adjusting your search terms or filters to find what you're looking for.",
+      "clearFilters": "Clear Filters"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest tech insights and educational content",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "privacy": "We respect your privacy and never share your email"
+    },
+    "readTime": "min read",
+    "publishedOn": "Published on",
+    "author": "By",
+    "tags": "Tags",
+    "relatedPosts": "Related Articles"
+  },
+  "legal": {
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last Updated"
+    },
+    "terms_of_service": {
+      "title": "Terms of Service",
+      "last_updated": "Last Updated"
+    },
+    "cookies_policy": {
+      "title": "Cookies Policy",
+      "last_updated": "Last Updated"
+    },
+    "code_of_conduct": {
+      "title": "Code of Conduct",
+      "last_updated": "Last Updated"
+    },
+    "security": {
+      "title": "Security",
+      "last_updated": "Last Updated"
+    }
   },
   "footer": {
     "about": "About Seksaa Tech Academy",
@@ -81,20 +360,128 @@
     "terms_of_service": "Terms of Service",
     "cookies_policy": "Cookies Policy"
   },
-  "enrollment": {
-    "title": "Enroll in Program",
+  "whatsapp": {
+    "message": "Hello! I'm interested in your tech programs.",
+    "button_text": "Chat with us"
+  },
+  "forms": {
+    "required": "Required",
+    "optional": "Optional",
+    "please_fill": "Please fill out this field",
+    "invalid_email": "Please enter a valid email address",
+    "invalid_phone": "Please enter a valid phone number",
+    "message_sent": "Message sent successfully!",
+    "message_error": "Failed to send message. Please try again.",
+    "newsletter_success": "Successfully subscribed to newsletter!",
+    "newsletter_error": "Failed to subscribe. Please try again."
+  },
+  "faq": {
+    "meta": {
+      "title": "Frequently Asked Questions | Seksaa Tech Academy",
+      "description": "Find answers to common questions about our tech programs, enrollment, payment options, and career support services.",
+      "keywords": "FAQ, questions, tech education, enrollment, payment, career support, Cambodia"
+    },
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find quick answers to common questions about our programs and services",
+    "description": "Everything you need to know about starting your tech journey with us",
+    "searchPlaceholder": "Search questions and answers...",
+    "search": "Search",
+    "clearFilters": "Clear all filters",
+    "activeFilters": "Active filters",
+    "categories": {
+      "title": "Categories",
+      "all": "All",
+      "general": "General",
+      "programs": "Programs",
+      "enrollment": "Enrollment",
+      "payment": "Payment",
+      "career": "Career",
+      "technical": "Technical"
+    },
+    "tags": {
+      "title": "Tags"
+    },
+    "stats": {
+      "searchable": {
+        "title": "Searchable",
+        "description": "Quickly find answers with our powerful search"
+      },
+      "categories": {
+        "title": "Organized",
+        "description": "Questions grouped by topic for easy browsing"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Still need help? Contact our support team"
+      }
+    },
+    "featured": {
+      "title": "Most Asked Questions",
+      "subtitle": "Start here with the questions we hear most often",
+      "viewAll": "View All Questions"
+    },
+    "allFaqs": {
+      "title": "All Questions & Answers",
+      "subtitle": "Browse our complete FAQ database or use search to find specific information"
+    },
+    "help": {
+      "title": "Still Need Help?",
+      "subtitle": "Can't find what you're looking for? Our support team is here to help you succeed.",
+      "phone": {
+        "title": "Call Us",
+        "description": "Speak with our admissions team"
+      },
+      "email": {
+        "title": "Email Support",
+        "description": "Get detailed answers via email"
+      },
+      "contact": {
+        "title": "Contact Form",
+        "description": "Send us a detailed message",
+        "button": "Contact Us"
+      }
+    }
+  },
+  "student": {
+    "portal_title": "Student Portal",
+    "welcome": "Welcome back",
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "assignments": "Assignments",
+    "messages": "Messages",
+    "profile": "Profile",
+    "overview": "Overview",
+    "academic_overview": "Here's your academic overview for this semester",
+    "quick_stats": {
+      "active_courses": "Active Courses",
+      "pending_tasks": "Pending Tasks",
+      "current_gpa": "Current GPA",
+      "total_credits": "Total Credits",
+      "attendance": "Attendance",
+      "achievements": "Achievements"
+    },
+    "course_progress": "Course Progress",
+    "upcoming_assignments": "Upcoming Assignments",
+    "recent_achievements": "Recent Achievements",
+    "notifications": "Recent Notifications",
+    "my_courses": "My Courses",
+    "course_details": "Course Details",
+    "schedule": "Schedule",
+    "resources": "Resources",
+    "assignment_management": "Assignment Management",
+    "pending": "Pending",
+    "submitted": "Submitted", 
+    "graded": "Graded",
+    "inbox": "Inbox",
+    "compose": "Compose Message",
     "personal_info": "Personal Information",
-    "program_selection": "Program Selection",
-    "payment_plan": "Payment Plan",
-    "first_name": "First Name",
-    "last_name": "Last Name",
-    "date_of_birth": "Date of Birth",
-    "education_level": "Education Level",
-    "experience": "Previous Experience",
-    "goals": "Learning Goals",
-    "payment_full": "Full Payment",
-    "payment_installment": "Installment Plan",
-    "terms_agreement": "I agree to the terms and conditions",
-    "submit_enrollment": "Submit Enrollment"
+    "academic_info": "Academic Information",
+    "preferences": "Preferences",
+    "edit_profile": "Edit Profile",
+    "save_changes": "Save Changes",
+    "loading_portal": "Loading your portal...",
+    "access_denied": "Access Denied",
+    "login_required": "Please log in to access your student portal",
+    "login_portal": "Login to Portal"
   }
 } 

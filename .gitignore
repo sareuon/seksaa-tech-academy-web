@@ -214,3 +214,9 @@ Thumbs.db
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# sst
+.sst
+
+# open-next
+.open-next

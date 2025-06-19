@@ -1,0 +1,274 @@
+{
+  "faqs": [
+    {
+      "id": "1",
+      "question": {
+        "en": "How long are the programs?",
+        "km": "កម្មវិធីមានរយៈពេលប៉ុន្មាន?"
+      },
+      "answer": {
+        "en": "Our programs range from 12-20 weeks depending on the specialization. All programs are part-time with evening and weekend classes to accommodate working professionals.",
+        "km": "កម្មវិធីរបស់យើងមានរយៈពេលពី 12-20 សប្តាហ៍ អាស្រ័យលើជំនាញ។ កម្មវិធីទាំងអស់គឺជាម៉ោងផ្នែក ជាមួយនឹងថ្នាក់រៀននៅពេលល្ងាច និងចុងសប្តាហ៍ ដើម្បីសម្រួលដល់អ្នកជំនាញការងារ។"
+      },
+      "category": "programs",
+      "featured": true,
+      "order": 1,
+      "tags": ["duration", "schedule", "part-time"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "question": {
+        "en": "What are the prerequisites?",
+        "km": "តើមានលក្ខខណ្ឌជាមុនអ្វីខ្លះ?"
+      },
+      "answer": {
+        "en": "Basic computer literacy and high school education. Some programs may require specific background knowledge, which we will assess during the consultation.",
+        "km": "ចំណេះដឹងកុំព្យូទ័រជាមូលដ្ឋាន និងការអប់រំវិទ្យាល័យ។ កម្មវិធីមួយចំនួនអាចតម្រូវឱ្យមានចំណេះដឹងផ្នែកជាក់លាក់ ដែលយើងនឹងវាយតម្លៃក្នុងអំឡុងពេលពិគ្រោះយោបល់។"
+      },
+      "category": "programs",
+      "featured": true,
+      "order": 2,
+      "tags": ["requirements", "education", "background"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "question": {
+        "en": "Do you offer job placement assistance?",
+        "km": "តើអ្នកផ្តល់ជំនួយការងារឬទេ?"
+      },
+      "answer": {
+        "en": "Yes! We have a 100% job placement rate. Our career services include resume building, interview preparation, and direct connections with hiring partners.",
+        "km": "បាទ! យើងមានអត្រាការងារ 100%។ សេវាកម្មអាជីពរបស់យើងរួមមាន ការបង្កើតប្រវត្តិរូប ការរៀបចំសម្ភាសន៍ និងការតភ្ជាប់ផ្ទាល់ជាមួយដៃគូជ្រើសរើស។"
+      },
+      "category": "career",
+      "featured": true,
+      "order": 3,
+      "tags": ["job-placement", "career-services", "employment"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "4",
+      "question": {
+        "en": "What payment options are available?",
+        "km": "តើមានជម្រើសបង់ប្រាក់អ្វីខ្លះ?"
+      },
+      "answer": {
+        "en": "We offer full payment with early bird discounts and flexible monthly installment plans. Financial aid and scholarships may be available for qualified students.",
+        "km": "យើងផ្តល់ការបង់ប្រាក់ពេញលេញជាមួយបញ្ចុះតម្លៃសម្រាប់ការចុះឈ្មោះមុន និងផែនការបង់រំលស់ប្រចាំខែដែលអាចបត់បែនបាន។ ជំនួយហិរញ្ញវត្ថុ និងអាហារូបករណ៍អាចមានសម្រាប់សិស្សដែលមានលក្ខណៈសម្បត្តិ។"
+      },
+      "category": "payment",
+      "featured": true,
+      "order": 4,
+      "tags": ["payment", "installments", "scholarships", "financial-aid"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "5",
+      "question": {
+        "en": "Can I work while studying?",
+        "km": "តើខ្ញុំអាចធ្វើការពេលកំពុងរៀនបានទេ?"
+      },
+      "answer": {
+        "en": "Absolutely! Our programs are designed for working professionals with classes scheduled in the evenings and weekends to fit your work schedule.",
+        "km": "ពិតប្រាកដ! កម្មវិធីរបស់យើងត្រូវបានរចនាសម្រាប់អ្នកជំនាញការងារ ជាមួយនឹងថ្នាក់រៀនដែលកំណត់ពេលនៅពេលល្ងាច និងចុងសប្តាហ៍ ដើម្បីសម្រួលតាមកាលវិភាគការងាររបស់អ្នក។"
+      },
+      "category": "general",
+      "featured": false,
+      "order": 5,
+      "tags": ["work-study", "schedule", "flexibility"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "6",
+      "question": {
+        "en": "What happens after graduation?",
+        "km": "តើមានអ្វីកើតឡើងបន្ទាប់ពីបញ្ចប់ការសិក្សា?"
+      },
+      "answer": {
+        "en": "You will receive a certificate of completion and lifetime access to our alumni network, job board, and continued career support services.",
+        "km": "អ្នកនឹងទទួលបានវិញ្ញាបនបត្របញ្ចប់ការសិក្សា និងការចូលប្រើប្រាស់ពេញមួយជីវិតទៅកាន់បណ្តាញអតីតនិស្សិត ក្រុមការងារ និងសេវាកម្មគាំទ្រអាជីពបន្ត។"
+      },
+      "category": "career",
+      "featured": false,
+      "order": 6,
+      "tags": ["graduation", "certificate", "alumni", "support"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "7",
+      "question": {
+        "en": "How do I enroll in a program?",
+        "km": "តើខ្ញុំចុះឈ្មោះចូលកម្មវិធីដោយរបៀបណា?"
+      },
+      "answer": {
+        "en": "You can start by filling out our enrollment form online, scheduling a consultation, or contacting us directly. Our admissions team will guide you through the entire process.",
+        "km": "អ្នកអាចចាប់ផ្តើមដោយបំពេញទម្រង់ចុះឈ្មោះរបស់យើងតាមអ៊ីនធឺណិត កំណត់ពេលពិគ្រោះយោបល់ ឬទាក់ទងមកយើងផ្ទាល់។ ក្រុមការចូលរៀនរបស់យើងនឹងណែនាំអ្នកពេញមួយដំណើរការ។"
+      },
+      "category": "enrollment",
+      "featured": false,
+      "order": 7,
+      "tags": ["enrollment", "application", "consultation"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "8",
+      "question": {
+        "en": "What is the class size?",
+        "km": "តើទំហំថ្នាក់រៀនប៉ុន្មាន?"
+      },
+      "answer": {
+        "en": "We maintain small class sizes with a maximum of 15 students per class to ensure personalized attention and effective learning.",
+        "km": "យើងរក្សាទំហំថ្នាក់រៀនតូច ជាមួយនិស្សិតអតិបរមា 15 នាក់ក្នុងមួយថ្នាក់ ដើម្បីធានាការយកចិត្តទុកដាក់ផ្ទាល់ខ្លួន និងការរៀនដ៏មានប្រសិទ្ធភាព។"
+      },
+      "category": "programs",
+      "featured": false,
+      "order": 8,
+      "tags": ["class-size", "personalized", "learning"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "9",
+      "question": {
+        "en": "Do you provide laptops or equipment?",
+        "km": "តើអ្នកផ្តល់កុំព្យូទ័រយួរដៃ ឬឧបករណ៍ឬទេ?"
+      },
+      "answer": {
+        "en": "Students need to bring their own laptops. We provide specifications for recommended hardware and software requirements before the program starts.",
+        "km": "និស្សិតត្រូវយកកុំព្យូទ័រយួរដៃផ្ទាល់ខ្លួន។ យើងផ្តល់ការបញ្ជាក់សម្រាប់ហាតវែរ និងតម្រូវការសូហ្វវែរដែលបានណែនាំមុនពេលកម្មវិធីចាប់ផ្តើម។"
+      },
+      "category": "technical",
+      "featured": false,
+      "order": 9,
+      "tags": ["equipment", "laptop", "requirements"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "10",
+      "question": {
+        "en": "Are there any age restrictions?",
+        "km": "តើមានការកំណត់អាយុឬទេ?"
+      },
+      "answer": {
+        "en": "There are no age restrictions. We welcome students of all ages who are motivated to learn and change their careers in technology.",
+        "km": "មិនមានការកំណត់អាយុទេ។ យើងស្វាគមន៍និស្សិតគ្រប់វ័យដែលមានការលើកទឹកចិត្តក្នុងការរៀន និងផ្លាស់ប្តូរអាជីពរបស់ពួកគេក្នុងបច្ចេកវិទ្យា។"
+      },
+      "category": "general",
+      "featured": false,
+      "order": 10,
+      "tags": ["age", "restrictions", "eligibility"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "11",
+      "question": {
+        "en": "What programming languages will I learn?",
+        "km": "តើខ្ញុំនឹងរៀនភាសាសរសេរកម្មវិធីអ្វីខ្លះ?"
+      },
+      "answer": {
+        "en": "Depending on your chosen program, you'll learn modern languages like JavaScript, Python, React, Node.js, and database technologies. Each program focuses on industry-relevant skills.",
+        "km": "អាស្រ័យលើកម្មវិធីដែលអ្នកបានជ្រើសរើស អ្នកនឹងរៀនភាសាទំនើបដូចជា JavaScript, Python, React, Node.js និងបច្ចេកវិទ្យាមូលដ្ឋានទិន្នន័យ។ កម្មវិធីនីមួយៗផ្តោតលើជំនាញដែលពាក់ព័ន្ធនឹងឧស្សាហកម្ម។"
+      },
+      "category": "programs",
+      "featured": false,
+      "order": 11,
+      "tags": ["programming-languages", "javascript", "python", "react"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "12",
+      "question": {
+        "en": "Is there a trial class available?",
+        "km": "តើមានថ្នាក់សាកល្បងឬទេ?"
+      },
+      "answer": {
+        "en": "Yes! We offer free trial classes so you can experience our teaching style and meet our instructors before making a commitment.",
+        "km": "បាទ! យើងផ្តល់ថ្នាក់សាកល្បងដោយឥតគិតថ្លៃ ដូច្នេះអ្នកអាចជួបប្រទះនឹងរបៀបបង្រៀនរបស់យើង និងជួបគ្រូបង្រៀនរបស់យើងមុនពេលធ្វើការប្តេជ្ញាចិត្ត។"
+      },
+      "category": "general",
+      "featured": false,
+      "order": 12,
+      "tags": ["trial", "free", "experience"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "13",
+      "question": {
+        "en": "What is the refund policy?",
+        "km": "តើគោលការណ៍ការសងប្រាក់វិញយ៉ាងដូចម្តេច?"
+      },
+      "answer": {
+        "en": "We offer a full refund within the first 2 weeks of the program if you're not satisfied. After that, refunds are prorated based on completed modules.",
+        "km": "យើងផ្តល់ការសងប្រាក់វិញពេញលេញក្នុងរយៈពេល 2 សប្តាហ៍ដំបូងនៃកម្មវិធី ប្រសិនបើអ្នកមិនពេញចិត្ត។ បន្ទាប់ពីនោះ ការសងប្រាក់វិញត្រូវបានគណនាតាមម៉ូឌុលដែលបានបញ្ចប់។"
+      },
+      "category": "payment",
+      "featured": false,
+      "order": 13,
+      "tags": ["refund", "policy", "satisfaction"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "14",
+      "question": {
+        "en": "Can I get a certificate?",
+        "km": "តើខ្ញុំអាចទទួលបានវិញ្ញាបនបត្របានទេ?"
+      },
+      "answer": {
+        "en": "Yes, upon successful completion of the program, you will receive an industry-recognized certificate that validates your skills and knowledge.",
+        "km": "បាទ បន្ទាប់ពីបញ្ចប់កម្មវិធីដោយជោគជ័យ អ្នកនឹងទទួលបានវិញ្ញាបនបត្រដែលត្រូវបានទទួលស្គាល់ដោយឧស្សាហកម្ម ដែលបញ្ជាក់ពីជំនាញ និងចំណេះដឹងរបស់អ្នក។"
+      },
+      "category": "programs",
+      "featured": false,
+      "order": 14,
+      "tags": ["certificate", "completion", "validation"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "15",
+      "question": {
+        "en": "What support is available during the program?",
+        "km": "តើមានការគាំទ្រអ្វីខ្លះក្នុងអំឡុងពេលកម្មវិធី?"
+      },
+      "answer": {
+        "en": "We provide comprehensive support including 1-on-1 mentoring, office hours with instructors, peer study groups, and 24/7 access to learning resources.",
+        "km": "យើងផ្តល់ការគាំទ្រដ៏ទូលំទូលាយ រួមមានការណែនាំ 1-ទល់-1 ម៉ោងការិយាល័យជាមួយគ្រូបង្រៀន ក្រុមសិក្សាមិត្តភក្តិ និងការចូលប្រើប្រាស់ធនធានសិក្សា 24/7។"
+      },
+      "category": "general",
+      "featured": false,
+      "order": 15,
+      "tags": ["support", "mentoring", "resources"],
+      "createdAt": "2024-12-01T10:00:00Z",
+      "updatedAt": "2024-12-19T14:30:00Z",
+      "isActive": true
+    }
+  ]
+} 

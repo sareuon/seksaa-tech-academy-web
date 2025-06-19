@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -33,6 +34,7 @@ import {
 } from 'lucide-react'
 
 export default function InstructorsPage() {
+  const params = useParams()
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedExpertise, setSelectedExpertise] = useState<string>('all')
   const [sortBy, setSortBy] = useState<string>('featured')
@@ -358,7 +360,7 @@ export default function InstructorsPage() {
                   </div>
 
                   {/* Action Button */}
-                  <Link href={`/instructors/${instructor.id}`}>
+                  <Link href={`/${params.locale}/instructors/${instructor.id}`}>
                     <Button className="w-full">
                       View Profile
                     </Button>

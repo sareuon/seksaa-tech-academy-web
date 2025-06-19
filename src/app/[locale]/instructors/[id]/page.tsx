@@ -44,6 +44,7 @@ export async function generateStaticParams() {
 interface InstructorProfilePageProps {
   params: {
     id: string
+    locale: string
   }
 }
 
@@ -391,7 +392,7 @@ export default function InstructorProfilePage({ params }: InstructorProfilePageP
                                   {program.format}
                                 </span>
                               </div>
-                              <Link href={`/programs/${program.id}`}>
+                              <Link href={`/${params.locale}/programs/${program.id}`}>
                                 <Button size="sm" variant="outline">
                                   View Program
                                 </Button>

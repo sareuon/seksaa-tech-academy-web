@@ -31,26 +31,29 @@ declare namespace __next_route_internal_types__ {
   type StaticRoutes = never
   type DynamicRoutes<T extends string = string> = 
     | `/${SafeSlug<T>}`
-    | `/${SafeSlug<T>}/schedule`
-    | `/${SafeSlug<T>}/schedule/booking-confirmation`
-    | `/${SafeSlug<T>}/contact`
-    | `/${SafeSlug<T>}/privacy`
-    | `/${SafeSlug<T>}/security`
-    | `/${SafeSlug<T>}/gallery`
-    | `/${SafeSlug<T>}/terms`
-    | `/${SafeSlug<T>}/blog`
-    | `/${SafeSlug<T>}/cookies`
-    | `/${SafeSlug<T>}/code-of-conduct`
-    | `/${SafeSlug<T>}/programs`
-    | `/${SafeSlug<T>}/programs/${SafeSlug<T>}`
-    | `/${SafeSlug<T>}/instructors`
-    | `/${SafeSlug<T>}/instructors/${SafeSlug<T>}`
-    | `/${SafeSlug<T>}/success-stories`
-    | `/${SafeSlug<T>}/success-stories/${SafeSlug<T>}`
-    | `/${SafeSlug<T>}/enroll`
-    | `/${SafeSlug<T>}/enroll/${SafeSlug<T>}`
     | `/${SafeSlug<T>}/admin`
     | `/${SafeSlug<T>}/admin/students`
+    | `/${SafeSlug<T>}/blog`
+    | `/${SafeSlug<T>}/code-of-conduct`
+    | `/${SafeSlug<T>}/cookies`
+    | `/${SafeSlug<T>}/enroll`
+    | `/${SafeSlug<T>}/enroll/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/contact`
+    | `/${SafeSlug<T>}/events`
+    | `/${SafeSlug<T>}/faq`
+    | `/${SafeSlug<T>}/gallery`
+    | `/${SafeSlug<T>}/instructors`
+    | `/${SafeSlug<T>}/instructors/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/programs`
+    | `/${SafeSlug<T>}/programs/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/privacy`
+    | `/${SafeSlug<T>}/schedule`
+    | `/${SafeSlug<T>}/schedule/booking-confirmation`
+    | `/${SafeSlug<T>}/security`
+    | `/${SafeSlug<T>}/student`
+    | `/${SafeSlug<T>}/success-stories`
+    | `/${SafeSlug<T>}/success-stories/${SafeSlug<T>}`
+    | `/${SafeSlug<T>}/terms`
 
   type RouteImpl<T> = 
     | StaticRoutes

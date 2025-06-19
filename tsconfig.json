@@ -57,6 +57,6 @@
   "exclude": [
     "node_modules",
     "out",
-    "dist"
+    "dist","sst.config.ts"
   ]
 }

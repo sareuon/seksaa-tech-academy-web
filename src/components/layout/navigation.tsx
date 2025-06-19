@@ -83,8 +83,27 @@ export function Navigation() {
               {t('blog')}
             </Link>
             
+            <Link href={localizedPath('/faq')} className="text-gray-700 hover:text-brand-600 transition-colors">
+              {t('faq')}
+            </Link>
+            
             <Link href={localizedPath('/contact')} className="text-gray-700 hover:text-brand-600 transition-colors">
               {t('contact')}
+            </Link>
+            
+            <Link 
+              href="/student" 
+              className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
+            >
+              <span>👨‍🎓</span>
+              <span>{t('nav.student')}</span>
+            </Link>
+            <Link 
+              href="/events" 
+              className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
+            >
+              <span>📅</span>
+              <span>{t('nav.events')}</span>
             </Link>
           </div>
 
@@ -185,11 +204,36 @@ export function Navigation() {
               </Link>
               
               <Link 
+                href={localizedPath('/faq')} 
+                className="text-gray-700 hover:text-brand-600 transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                {t('faq')}
+              </Link>
+              
+              <Link 
                 href={localizedPath('/contact')} 
                 className="text-gray-700 hover:text-brand-600 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {t('contact')}
+              </Link>
+              
+              <Link 
+                href="/student" 
+                className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
+                onClick={() => setIsOpen(false)}
+              >
+                <span>👨‍🎓</span>
+                <span>{t('nav.student')}</span>
+              </Link>
+              <Link 
+                href="/events" 
+                className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
+                onClick={() => setIsOpen(false)}
+              >
+                <span>📅</span>
+                <span>{t('nav.events')}</span>
               </Link>
               
               <div className="pt-4 border-t border-gray-200 space-y-3">

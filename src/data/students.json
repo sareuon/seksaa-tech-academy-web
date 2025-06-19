@@ -1,0 +1,410 @@
+{
+  "students": [
+    {
+      "id": "ST001",
+      "personalInfo": {
+        "firstName": "Sophea",
+        "lastName": "Chan",
+        "email": "sophea.chan@email.com",
+        "phone": "+855 12 345 678",
+        "dateOfBirth": "1998-03-15",
+        "address": {
+          "street": "Street 271, Sangkat Toul Tompong",
+          "city": "Phnom Penh",
+          "province": "Phnom Penh",
+          "postalCode": "12000",
+          "country": "Cambodia"
+        },
+        "emergencyContact": {
+          "name": "Pisach Chan",
+          "relationship": "Father",
+          "phone": "+855 12 987 654"
+        },
+        "profileImage": "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      },
+      "academicInfo": {
+        "studentId": "STA2024001",
+        "enrollmentDate": "2024-01-15",
+        "status": "active",
+        "currentPrograms": ["ai-ml-bootcamp"],
+        "completedPrograms": [],
+        "gpa": 3.85,
+        "totalCredits": 24,
+        "expectedGraduation": "2024-12-15"
+      },
+      "coursesEnrolled": [
+        {
+          "courseId": "AIML-101",
+          "courseName": "Introduction to AI & Machine Learning",
+          "instructor": "Prof. Sokha Lim",
+          "enrollmentDate": "2024-01-15",
+          "status": "in-progress",
+          "progress": 75,
+          "grade": "A-",
+          "credits": 4,
+          "schedule": {
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time": "09:00-11:00",
+            "room": "Lab A"
+          }
+        },
+        {
+          "courseId": "AIML-102",
+          "courseName": "Python for Data Science",
+          "instructor": "Dr. Dara Kem",
+          "enrollmentDate": "2024-02-01",
+          "status": "in-progress",
+          "progress": 60,
+          "grade": "B+",
+          "credits": 3,
+          "schedule": {
+            "days": ["Tuesday", "Thursday"],
+            "time": "14:00-16:30",
+            "room": "Lab B"
+          }
+        },
+        {
+          "courseId": "AIML-103",
+          "courseName": "Machine Learning Algorithms",
+          "instructor": "Prof. Sokha Lim",
+          "enrollmentDate": "2024-03-01",
+          "status": "in-progress",
+          "progress": 45,
+          "grade": "A",
+          "credits": 4,
+          "schedule": {
+            "days": ["Monday", "Wednesday"],
+            "time": "13:00-15:00",
+            "room": "Lab A"
+          }
+        }
+      ],
+      "assignments": [
+        {
+          "id": "AIML-101-A1",
+          "courseId": "AIML-101",
+          "title": "Linear Regression Project",
+          "description": "Implement a linear regression model to predict housing prices using Python and scikit-learn.",
+          "dueDate": "2024-12-25",
+          "status": "submitted",
+          "submissionDate": "2024-12-20",
+          "grade": 95,
+          "feedback": "Excellent implementation! Your code is well-documented and the analysis is thorough.",
+          "maxPoints": 100,
+          "weight": 0.2
+        },
+        {
+          "id": "AIML-102-A1",
+          "courseId": "AIML-102",
+          "title": "Data Visualization Dashboard",
+          "description": "Create an interactive dashboard using Plotly and Dash to visualize COVID-19 data trends.",
+          "dueDate": "2024-12-30",
+          "status": "in-progress",
+          "submissionDate": null,
+          "grade": null,
+          "feedback": null,
+          "maxPoints": 100,
+          "weight": 0.25
+        },
+        {
+          "id": "AIML-103-A1",
+          "courseId": "AIML-103",
+          "title": "Classification Model Comparison",
+          "description": "Compare the performance of different classification algorithms on a real-world dataset.",
+          "dueDate": "2025-01-05",
+          "status": "pending",
+          "submissionDate": null,
+          "grade": null,
+          "feedback": null,
+          "maxPoints": 100,
+          "weight": 0.3
+        }
+      ],
+      "messages": [
+        {
+          "id": "MSG001",
+          "from": "Prof. Sokha Lim",
+          "to": "Sophea Chan",
+          "subject": "Great Progress on ML Project",
+          "content": "Hi Sophea, I wanted to congratulate you on your excellent work on the linear regression project. Your approach to feature engineering was particularly impressive. Keep up the great work!",
+          "timestamp": "2024-12-20T14:30:00Z",
+          "read": true,
+          "type": "instructor"
+        },
+        {
+          "id": "MSG002",
+          "from": "Academic Office",
+          "to": "Sophea Chan",
+          "subject": "Upcoming Final Exams Schedule",
+          "content": "Dear Sophea, please find attached the final exam schedule for this semester. Make sure to review the exam guidelines and prepare accordingly.",
+          "timestamp": "2024-12-18T09:00:00Z",
+          "read": true,
+          "type": "admin"
+        },
+        {
+          "id": "MSG003",
+          "from": "Dr. Dara Kem",
+          "to": "Sophea Chan",
+          "subject": "Data Visualization Assignment Reminder",
+          "content": "Hi Sophea, just a friendly reminder that your data visualization dashboard assignment is due on December 30th. If you have any questions, please don't hesitate to reach out during office hours.",
+          "timestamp": "2024-12-19T16:45:00Z",
+          "read": false,
+          "type": "instructor"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "NOT001",
+          "type": "assignment",
+          "title": "New Assignment Posted",
+          "message": "Classification Model Comparison assignment has been posted in AIML-103",
+          "timestamp": "2024-12-19T10:00:00Z",
+          "read": false,
+          "priority": "medium"
+        },
+        {
+          "id": "NOT002",
+          "type": "grade",
+          "title": "Grade Posted",
+          "message": "Your grade for Linear Regression Project has been posted: 95/100",
+          "timestamp": "2024-12-20T15:00:00Z",
+          "read": true,
+          "priority": "low"
+        },
+        {
+          "id": "NOT003",
+          "type": "schedule",
+          "title": "Class Cancelled",
+          "message": "Tomorrow's AIML-102 class has been cancelled due to instructor illness",
+          "timestamp": "2024-12-21T18:00:00Z",
+          "read": false,
+          "priority": "high"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ACH001",
+          "title": "Top Performer",
+          "description": "Achieved highest grade in Linear Regression Project",
+          "icon": "🏆",
+          "earnedDate": "2024-12-20",
+          "category": "academic"
+        },
+        {
+          "id": "ACH002",
+          "title": "Perfect Attendance",
+          "description": "Attended all classes in November 2024",
+          "icon": "📅",
+          "earnedDate": "2024-11-30",
+          "category": "attendance"
+        },
+        {
+          "id": "ACH003",
+          "title": "Early Bird",
+          "description": "Submitted assignment 5 days before deadline",
+          "icon": "⏰",
+          "earnedDate": "2024-12-20",
+          "category": "submission"
+        }
+      ],
+      "preferences": {
+        "language": "en",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        },
+        "theme": "light",
+        "timezone": "Asia/Phnom_Penh"
+      }
+    },
+    {
+      "id": "ST002",
+      "personalInfo": {
+        "firstName": "Raksmey",
+        "lastName": "Pich",
+        "email": "raksmey.pich@email.com",
+        "phone": "+855 17 234 567",
+        "dateOfBirth": "1999-07-22",
+        "address": {
+          "street": "Street 63, Sangkat Boeung Keng Kang",
+          "city": "Phnom Penh",
+          "province": "Phnom Penh",
+          "postalCode": "12000",
+          "country": "Cambodia"
+        },
+        "emergencyContact": {
+          "name": "Mealea Pich",
+          "relationship": "Mother",
+          "phone": "+855 12 876 543"
+        },
+        "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      },
+      "academicInfo": {
+        "studentId": "STA2024002",
+        "enrollmentDate": "2024-02-01",
+        "status": "active",
+        "currentPrograms": ["web-dev-intensive"],
+        "completedPrograms": [],
+        "gpa": 3.92,
+        "totalCredits": 18,
+        "expectedGraduation": "2024-11-30"
+      },
+      "coursesEnrolled": [
+        {
+          "courseId": "WEB-201",
+          "courseName": "Full-Stack Web Development",
+          "instructor": "Eng. Vibol Sao",
+          "enrollmentDate": "2024-02-01",
+          "status": "in-progress",
+          "progress": 85,
+          "grade": "A",
+          "credits": 5,
+          "schedule": {
+            "days": ["Tuesday", "Thursday", "Saturday"],
+            "time": "09:00-12:00",
+            "room": "Lab C"
+          }
+        },
+        {
+          "courseId": "WEB-202",
+          "courseName": "React & Modern JavaScript",
+          "instructor": "Ms. Channary Ouk",
+          "enrollmentDate": "2024-03-15",
+          "status": "in-progress",
+          "progress": 70,
+          "grade": "A-",
+          "credits": 4,
+          "schedule": {
+            "days": ["Monday", "Wednesday", "Friday"],
+            "time": "14:00-16:00",
+            "room": "Lab D"
+          }
+        }
+      ],
+      "assignments": [
+        {
+          "id": "WEB-201-A1",
+          "courseId": "WEB-201",
+          "title": "E-commerce Website Project",
+          "description": "Build a full-stack e-commerce website using Node.js, Express, and MongoDB.",
+          "dueDate": "2024-12-28",
+          "status": "in-progress",
+          "submissionDate": null,
+          "grade": null,
+          "feedback": null,
+          "maxPoints": 100,
+          "weight": 0.4
+        },
+        {
+          "id": "WEB-202-A1",
+          "courseId": "WEB-202",
+          "title": "React Portfolio Website",
+          "description": "Create a responsive portfolio website using React and modern CSS techniques.",
+          "dueDate": "2024-12-22",
+          "status": "submitted",
+          "submissionDate": "2024-12-21",
+          "grade": 92,
+          "feedback": "Great use of React hooks and responsive design. Consider adding more animations for better UX.",
+          "maxPoints": 100,
+          "weight": 0.3
+        }
+      ],
+      "messages": [
+        {
+          "id": "MSG004",
+          "from": "Eng. Vibol Sao",
+          "to": "Raksmey Pich",
+          "subject": "E-commerce Project Guidance",
+          "content": "Hi Raksmey, I noticed you're making great progress on your e-commerce project. Remember to implement proper error handling and input validation. Looking forward to seeing your final submission!",
+          "timestamp": "2024-12-21T11:30:00Z",
+          "read": false,
+          "type": "instructor"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "NOT004",
+          "type": "reminder",
+          "title": "Assignment Due Soon",
+          "message": "E-commerce Website Project is due in 7 days",
+          "timestamp": "2024-12-21T09:00:00Z",
+          "read": false,
+          "priority": "medium"
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ACH004",
+          "title": "Code Quality Champion",
+          "description": "Received highest marks for code quality and documentation",
+          "icon": "💻",
+          "earnedDate": "2024-12-21",
+          "category": "academic"
+        }
+      ],
+      "preferences": {
+        "language": "km",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": true
+        },
+        "theme": "dark",
+        "timezone": "Asia/Phnom_Penh"
+      }
+    }
+  ],
+  "courseResources": [
+    {
+      "courseId": "AIML-101",
+      "resources": [
+        {
+          "id": "RES001",
+          "title": "Introduction to Machine Learning - Lecture Slides",
+          "type": "slides",
+          "url": "/resources/aiml-101-intro-slides.pdf",
+          "uploadDate": "2024-01-15",
+          "size": "2.5 MB"
+        },
+        {
+          "id": "RES002",
+          "title": "Python Setup Guide",
+          "type": "document",
+          "url": "/resources/python-setup-guide.pdf",
+          "uploadDate": "2024-01-15",
+          "size": "1.2 MB"
+        },
+        {
+          "id": "RES003",
+          "title": "Dataset: Housing Prices",
+          "type": "dataset",
+          "url": "/resources/housing-prices-dataset.csv",
+          "uploadDate": "2024-01-20",
+          "size": "850 KB"
+        }
+      ]
+    },
+    {
+      "courseId": "AIML-102",
+      "resources": [
+        {
+          "id": "RES004",
+          "title": "Data Visualization Best Practices",
+          "type": "video",
+          "url": "/resources/data-viz-best-practices.mp4",
+          "uploadDate": "2024-02-01",
+          "size": "125 MB"
+        },
+        {
+          "id": "RES005",
+          "title": "Plotly Tutorial Notebook",
+          "type": "notebook",
+          "url": "/resources/plotly-tutorial.ipynb",
+          "uploadDate": "2024-02-05",
+          "size": "2.1 MB"
+        }
+      ]
+    }
+  ]
+} 

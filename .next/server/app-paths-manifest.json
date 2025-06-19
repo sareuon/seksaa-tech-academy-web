@@ -1,12 +1,1 @@
-{
-  "/[locale]/schedule/page": "app/[locale]/schedule/page.js",
-  "/[locale]/instructors/page": "app/[locale]/instructors/page.js",
-  "/[locale]/success-stories/page": "app/[locale]/success-stories/page.js",
-  "/[locale]/contact/page": "app/[locale]/contact/page.js",
-  "/[locale]/blog/page": "app/[locale]/blog/page.js",
-  "/[locale]/programs/page": "app/[locale]/programs/page.js",
-  "/[locale]/gallery/page": "app/[locale]/gallery/page.js",
-  "/[locale]/privacy/page": "app/[locale]/privacy/page.js",
-  "/[locale]/terms/page": "app/[locale]/terms/page.js",
-  "/[locale]/enroll/page": "app/[locale]/enroll/page.js"
-}
+{}
