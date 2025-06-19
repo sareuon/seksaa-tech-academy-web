@@ -35,10 +35,10 @@ declare namespace __next_route_internal_types__ {
     | `/${SafeSlug<T>}/admin/students`
     | `/${SafeSlug<T>}/blog`
     | `/${SafeSlug<T>}/code-of-conduct`
+    | `/${SafeSlug<T>}/contact`
     | `/${SafeSlug<T>}/cookies`
     | `/${SafeSlug<T>}/enroll`
     | `/${SafeSlug<T>}/enroll/${SafeSlug<T>}`
-    | `/${SafeSlug<T>}/contact`
     | `/${SafeSlug<T>}/events`
     | `/${SafeSlug<T>}/faq`
     | `/${SafeSlug<T>}/gallery`

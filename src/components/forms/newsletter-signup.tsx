@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
@@ -47,6 +47,11 @@ export function NewsletterSignup({
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
+  const [isMounted, setIsMounted] = useState(false)
+
+  useEffect(() => {
+    setIsMounted(true)
+  }, [])
 
   const programs = getAllPrograms()
 
@@ -111,6 +116,22 @@ export function NewsletterSignup({
     } else {
       setValue('interestedPrograms', currentPrograms.filter(id => id !== programId))
     }
+  }
+
+  // Prevent hydration mismatch
+  if (!isMounted) {
+    return (
+      <div className={`space-y-3 ${className}`}>
+        <div className="animate-pulse">
+          <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+          <div className="h-4 bg-gray-200 rounded w-1/2 mb-3"></div>
+          <div className="flex gap-2">
+            <div className="flex-1 h-10 bg-gray-200 rounded"></div>
+            <div className="w-20 h-10 bg-gray-200 rounded"></div>
+          </div>
+        </div>
+      </div>
+    )
   }
 
   if (submitStatus === 'success') {
