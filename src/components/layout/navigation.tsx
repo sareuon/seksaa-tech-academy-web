@@ -96,14 +96,14 @@ export function Navigation() {
               className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
             >
               <span>👨‍🎓</span>
-              <span>{t('nav.student')}</span>
+              <span>{t('student')}</span>
             </Link>
             <Link 
               href="/events" 
               className="text-gray-700 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1"
             >
               <span>📅</span>
-              <span>{t('nav.events')}</span>
+              <span>{t('events')}</span>
             </Link>
           </div>
 
@@ -225,7 +225,7 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
               >
                 <span>👨‍🎓</span>
-                <span>{t('nav.student')}</span>
+                <span>{t('student')}</span>
               </Link>
               <Link 
                 href="/events" 
@@ -233,7 +233,7 @@ export function Navigation() {
                 onClick={() => setIsOpen(false)}
               >
                 <span>📅</span>
-                <span>{t('nav.events')}</span>
+                <span>{t('events')}</span>
               </Link>
               
               <div className="pt-4 border-t border-gray-200 space-y-3">
